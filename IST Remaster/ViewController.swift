@@ -13,14 +13,15 @@ class ViewController: UIViewController {
     @IBOutlet var menuButtons: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
 
+    
     @IBAction func handleSelection(_ sender: UIButton) {
         menuButtons.forEach { (button) in
             UIView.animate(withDuration: 0.5, animations: {
@@ -30,7 +31,15 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func menuTapped(_ sender: UIButton) {
+    
+    @IBAction func onButtonPress(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "https://youtu.be/YkOzV7mZCWs")! as URL, options: [:], completionHandler: nil)
     }
+    @IBAction func menuTapped(_ sender: UIButton) {
+       
+        }
 }
+    
+
 
