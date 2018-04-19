@@ -70,7 +70,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Znh-Kr-Kci"/>
-                                            <segue destination="QgV-3w-hX2" kind="show" id="fpe-xO-Jb9"/>
+                                            <segue destination="vGn-B8-1Zk" kind="show" id="lDF-d5-GUr"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ui-gl-f5G">
@@ -98,7 +98,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Pj-Ez-cPN"/>
-                                            <segue destination="878-mo-jY4" kind="show" id="k4l-m5-VWl"/>
+                                            <segue destination="ajK-Gc-sfP" kind="show" id="8b8-cp-kPp"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHG-36-Yol">
@@ -206,33 +206,8 @@
             <point key="canvasLocation" x="-79" y="-240"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="wI8-lK-hte">
-            <objects>
-                <viewController id="QgV-3w-hX2" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yz1-Ri-daR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sng-KI-kul">
-                                <rect key="frame" x="45" y="119" width="47" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="jgX-aV-AK8"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BBo-mc-ivx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2946.4000000000001" y="635.53223388305855"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="guZ-q5-FSG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f39-Ck-zOq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="sbX-W2-dl1" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u13-bm-git">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
@@ -305,32 +280,9 @@
                     </view>
                     <size key="freeformSize" width="375" height="3000"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f39-Ck-zOq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1986.4000000000001" y="1442.3645320197045"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ebq-0m-QO8">
-            <objects>
-                <viewController id="878-mo-jY4" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0GJ-hB-bqk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5V-ai-ZpA">
-                                <rect key="frame" x="48" y="132" width="62" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Rbk-hB-2IK"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SRi-xG-4yg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1090.4000000000001" y="635.53223388305855"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UTU-Mv-EHH">
@@ -341,7 +293,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKu-QZ-djz">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                <rect key="frame" x="0.0" y="-34" width="375" height="1200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Q6-kI-Brf">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
@@ -528,10 +480,339 @@
             </objects>
             <point key="canvasLocation" x="2637.5999999999999" y="635.53223388305855"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="YRS-uW-u3P">
+            <objects>
+                <viewController id="ajK-Gc-sfP" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cnD-nm-KRk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="3100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JoC-OT-gFJ">
+                                <rect key="frame" x="0.0" y="44" width="375" height="3022"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3IX-DM-uTE">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="3100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IOS Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUE-h4-6Ed">
+                                                <rect key="frame" x="89" y="15" width="196" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="Oxw-81-BDC">
+                                                <rect key="frame" x="67" y="52" width="240" height="143"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is IOS App Development and how does it differ from Software Programming?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUZ-r2-OTm">
+                                                <rect key="frame" x="25" y="203" width="324" height="81"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xt5-YY-aQn">
+                                                <rect key="frame" x="44" y="292" width="287" height="689"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Although there are many differences between IOS App Development and Software Programming, they are also fairly similar in nature. 
+
+Both these careers require programming and technical skills, analytical problem solving, math, creativity, attention to detail, and the ability to think under pressure. 
+
+App development refers to the development of a new type of application for electronic devices including but not limited to cell phones, car navigation, tablets, or even computers. IOS App Development means the following just focused on apple devices.
+
+Software programming, oftentimes referred to as software engineering deals with the development of code to power software programs.
+
+In conclusion, IOS App Development tends to focus more on design, interfaces, and entertaining. Software Programming/ Engineering deals with the development of coding using existing languages such as C#, Python, ect., or the invention of something new.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information on designing vs developing, click the button below!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBy-gy-PhT">
+                                                <rect key="frame" x="78" y="989" width="218" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cp-Tx-Lzu">
+                                                <rect key="frame" x="96" y="1081" width="175" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                                <state key="normal" title="Learn More!">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What does a career in IOS App Development entail?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyc-yn-4ND">
+                                                <rect key="frame" x="44" y="1159" width="287" height="61"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imac" translatesAutoresizingMaskIntoConstraints="NO" id="Cg5-Iz-d5U">
+                                                <rect key="frame" x="67" y="1228" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="42" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbN-mK-UD7">
+                                                <rect key="frame" x="67" y="1364" width="240" height="462"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">IOS Development is an exciting career full of change, expansion, and plenty of opportunity. One of the most stimulating aspects of being an IOS Developer is the constant need for adaptation and change. As technology changes, so must developers. 
+
+The US Department of Labor projected a 24% increase (much faster than average) for Developers. CNNMoney stated Mobile Application Development to be one of the best jobs in American with a 10-year job growth of 19%. Forbes also listed Mobile Application Development among the top 14 tech skills in demand for 2018.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are employers looking for in IOS App Development?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kew-UP-AFn">
+                                                <rect key="frame" x="46" y="1834" width="287" height="63"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="programming" translatesAutoresizingMaskIntoConstraints="NO" id="0T3-x6-Cn8">
+                                                <rect key="frame" x="55" y="1905" width="264" height="156"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpT-Ze-tt7">
+                                                <rect key="frame" x="55" y="2069" width="264" height="254"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Typically, employers are looking for a well-rounded candidate with the humble ability to learn. 
+
+Employers are looking for a candidate with experience in Objective C and Swift programming, experience using xcode along with other basic developer tools, education, communication, and excellent problem solving skills. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To watch, &quot;A Day in the Life of a Software Engineer,&quot; click below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rK-Da-Deb">
+                                                <rect key="frame" x="56" y="2331" width="263" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZH-85-JP0">
+                                                <rect key="frame" x="93" y="2399" width="189" height="63"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <state key="normal" title="Watch!">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What classes will I need to take?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V99-4X-aVc">
+                                                <rect key="frame" x="46" y="2470" width="287" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="ZBM-Zb-wFb">
+                                                <rect key="frame" x="69" y="2519" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Or-Mo-eot">
+                                                <rect key="frame" x="22" y="2655" width="331" height="227"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The IOS App Development concentration is designed to equip you with the skills necessary to work with mobile networks and devices. The classes you will take are tailored to provide a foundation to further your education or build a career in IOS App Development. 
+
+These classes include but are not limited to, C# Programming, Swift, Fundamentals of Virtualization, and so on.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To view a complete list of classes,                                          click the button below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcL-aG-gq7">
+                                                <rect key="frame" x="44" y="2890" width="275" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="433-Xa-4dO">
+                                                <rect key="frame" x="89" y="2963" width="180" height="53"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <state key="normal" title="Learn More">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="3100" id="gq8-SD-z4I"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3IX-DM-uTE" firstAttribute="leading" secondItem="JoC-OT-gFJ" secondAttribute="leading" id="DLW-Qb-08h"/>
+                                    <constraint firstAttribute="bottom" secondItem="3IX-DM-uTE" secondAttribute="bottom" id="Tg2-Il-WHu"/>
+                                    <constraint firstAttribute="trailing" secondItem="3IX-DM-uTE" secondAttribute="trailing" id="d9M-5l-nzC"/>
+                                    <constraint firstItem="3IX-DM-uTE" firstAttribute="top" secondItem="JoC-OT-gFJ" secondAttribute="top" id="rFp-rI-yqQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JoC-OT-gFJ" firstAttribute="bottom" secondItem="hRS-Yk-lfC" secondAttribute="bottom" id="Cpr-YX-z7L"/>
+                            <constraint firstItem="JoC-OT-gFJ" firstAttribute="trailing" secondItem="hRS-Yk-lfC" secondAttribute="trailing" id="UDa-zS-cFg"/>
+                            <constraint firstItem="3IX-DM-uTE" firstAttribute="width" secondItem="cnD-nm-KRk" secondAttribute="width" id="dPq-82-wRx"/>
+                            <constraint firstItem="JoC-OT-gFJ" firstAttribute="top" secondItem="hRS-Yk-lfC" secondAttribute="top" id="n41-Wx-Va8"/>
+                            <constraint firstItem="JoC-OT-gFJ" firstAttribute="leading" secondItem="hRS-Yk-lfC" secondAttribute="leading" id="tK5-Eb-dMq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hRS-Yk-lfC"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="3100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bbq-xq-48O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1066.4000000000001" y="1478.5714285714287"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bNc-A4-TC8">
+            <objects>
+                <viewController id="vGn-B8-1Zk" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PJi-kc-pHG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EDi-9Y-acm">
+                                <rect key="frame" x="0.0" y="44" width="375" height="1222"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svh-hJ-0nN">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About &amp; FAQ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-2H-pgF">
+                                                <rect key="frame" x="107" y="8" width="161" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Advisors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZT-wy-MGU">
+                                                <rect key="frame" x="136" y="49" width="103" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dr. Natasha Lewis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCG-GM-CeC">
+                                                <rect key="frame" x="107" y="87" width="159" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFN-gh-mid">
+                                                <rect key="frame" x="41" y="118" width="292" height="92"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Instructor, Information Systems Technology
+Gordon Hall - (662) 720-7303
+nmlewis@nemcc.edu</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nick Jackson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXk-DL-9vg">
+                                                <rect key="frame" x="127" y="218" width="118" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrr-et-TTE">
+                                                <rect key="frame" x="31" y="249" width="312" height="91"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Instructor, Information Systems Technology
+Gordon Hall - (662) 720-7268
+nljackson@nemcc.edu</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About NEMCC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuI-ya-upt">
+                                                <rect key="frame" x="103" y="348" width="169" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz7-1A-5lN">
+                                                <rect key="frame" x="31" y="386" width="312" height="298"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Northeast Mississippi Community College is a public, comprehensive community college that exists to meet the educational and career needs of individual students and the community within the district it serves – Alcorn, Prentiss, Tippah,
+Tishomingo and Union Counties – by awarding the Associate of Arts Degree, Associate of Applied Science Degree and Certificates.
+Beyond this original scope, Northeast responds to the needs of all who seek a college education.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXF-ZV-f7f">
+                                                <rect key="frame" x="25" y="692" width="325" height="88"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">To accomplish the intended role and scope of the college, 
+the following institutional goals were established:</string>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-rh-DYQ">
+                                                <rect key="frame" x="25" y="788" width="338" height="421"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">•	To provide degree and certificate programs that prepare students 
+•	for continued studies or immediate employment.
+•	To provide a program of student services that will facilitate the educational, career, personal, and social growth of students.
+•	To provide developmental studies within the curriculum
+•	to strengthen the basic skills of students.
+•	To offer continuing education, community services, and adult basic education for individuals striving for personal and professional growth and/or personal enrichment.
+•	To provide employer-driven, industry-specific workforce education and training to business, industry, and individuals.
+•	To provide human resources, financial resources, instructional resources, and physical facilities necessary to offer quality instruction</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1300" id="De7-wf-p5z"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="svh-hJ-0nN" firstAttribute="top" secondItem="EDi-9Y-acm" secondAttribute="top" id="RWH-ke-LK0"/>
+                                    <constraint firstAttribute="trailing" secondItem="svh-hJ-0nN" secondAttribute="trailing" id="THr-m6-q1U"/>
+                                    <constraint firstAttribute="bottom" secondItem="svh-hJ-0nN" secondAttribute="bottom" id="YOW-6F-088"/>
+                                    <constraint firstItem="svh-hJ-0nN" firstAttribute="leading" secondItem="EDi-9Y-acm" secondAttribute="leading" id="n0e-9w-5id"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EDi-9Y-acm" firstAttribute="leading" secondItem="kzS-8T-Ppv" secondAttribute="leading" id="5Gs-Zv-g2g"/>
+                            <constraint firstItem="EDi-9Y-acm" firstAttribute="bottom" secondItem="kzS-8T-Ppv" secondAttribute="bottom" id="IPG-A6-q5y"/>
+                            <constraint firstItem="svh-hJ-0nN" firstAttribute="width" secondItem="PJi-kc-pHG" secondAttribute="width" id="ahv-8p-0yn"/>
+                            <constraint firstItem="EDi-9Y-acm" firstAttribute="top" secondItem="kzS-8T-Ppv" secondAttribute="top" id="hpy-DZ-2dm"/>
+                            <constraint firstItem="EDi-9Y-acm" firstAttribute="trailing" secondItem="kzS-8T-Ppv" secondAttribute="trailing" id="qu0-hw-aYB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kzS-8T-Ppv"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdD-GM-RXg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2940" y="814.28571428571433"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="apple" width="2250" height="1500"/>
         <image name="cybersecurity-rules-linkedin" width="720" height="438"/>
         <image name="iPhone 8 Plus" width="375" height="667"/>
+        <image name="imac" width="2250" height="1500"/>
+        <image name="instagram" width="2000" height="1500"/>
+        <image name="programming" width="2001" height="1500"/>
         <image name="server1" width="318" height="159"/>
     </resources>
     <inferredMetricsTieBreakers>
