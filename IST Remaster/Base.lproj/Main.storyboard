@@ -211,14 +211,14 @@
         <scene sceneID="UTU-Mv-EHH">
             <objects>
                 <viewController id="OTb-eP-zk1" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zmR-ij-sjO">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zmR-ij-sjO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OKu-QZ-djz">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKu-QZ-djz">
                                 <rect key="frame" x="0.0" y="-34" width="375" height="1200"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Q6-kI-Brf">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Q6-kI-Brf">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLV-zS-jPv">
@@ -840,7 +840,7 @@ the following institutional goals were established:</string>
         <!--View Controller-->
         <scene sceneID="j24-9R-fgk">
             <objects>
-                <viewController id="Z2B-VX-V7e" customClass="ViewController" customModule="TTT_Turorial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Z2B-VX-V7e" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iol-sv-YhQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1067,11 +1067,11 @@ the following institutional goals were established:</string>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                                    <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt">
-                                                <rect key="frame" x="-869" y="27" width="2112" height="64"/>
+                                                <rect key="frame" x="19" y="27" width="336" height="64"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="64" id="HJ7-2A-PkU"/>
                                                 </constraints>
@@ -1100,14 +1100,12 @@ the following institutional goals were established:</string>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="video2-1"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="41" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDr-Hi-s2d">
-                                                <rect key="frame" x="9" y="738" width="346" height="512"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="41" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDr-Hi-s2d">
+                                                <rect key="frame" x="33" y="665" width="322" height="512"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="512" id="NEc-QE-WT0"/>
                                                 </constraints>
-                                                <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <string key="content">- Information security analysts typically do the following:
+                                                <mutableString key="text">Information security analysts typically do the following:
 
 - Monitor their organization’s networks for security breaches and investigate a violation when one occurs
 
@@ -1123,18 +1121,15 @@ the following institutional goals were established:</string>
 
 - Recommend security enhancements to management or senior IT staff
 
-- Help computer users when they need to install or learn about new security products and procedures</string>
-                                                        <attributes>
-                                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <font key="NSFont" size="14" name="Courier-Bold"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+- Help computer users when they need to install or learn about new security products and procedures</mutableString>
+                                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.43069948190000001" green="0.11832421110000001" blue="0.1102511264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="bDr-Hi-s2d" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="9" id="6Ym-ND-nl0"/>
                                             <constraint firstItem="xNM-E2-RSo" firstAttribute="leading" secondItem="9dq-gq-h4D" secondAttribute="leading" id="Amc-K4-AAE"/>
                                             <constraint firstItem="xNM-E2-RSo" firstAttribute="trailing" secondItem="9dq-gq-h4D" secondAttribute="trailing" id="Fj7-be-Rgx"/>
                                             <constraint firstItem="UY5-n6-rzt" firstAttribute="centerX" secondItem="ImO-5c-rLZ" secondAttribute="centerX" id="IvX-Ho-kYn"/>
@@ -1145,6 +1140,7 @@ the following institutional goals were established:</string>
                                             <constraint firstAttribute="height" constant="3000" id="ctp-DE-NpZ"/>
                                             <constraint firstItem="bDr-Hi-s2d" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="33" id="eXG-aV-U5x"/>
                                             <constraint firstItem="c3M-sT-dad" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" constant="99" id="qbE-29-TRV"/>
+                                            <constraint firstAttribute="trailing" secondItem="bDr-Hi-s2d" secondAttribute="trailing" constant="20" id="ulh-tt-XTq"/>
                                             <constraint firstAttribute="trailing" secondItem="c3M-sT-dad" secondAttribute="trailing" constant="68" id="wiU-pc-iw7"/>
                                             <constraint firstItem="xNM-E2-RSo" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" constant="393" id="zFy-WF-tpS"/>
                                             <constraint firstItem="UY5-n6-rzt" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" constant="27" id="zOE-cY-T0C"/>
@@ -1218,7 +1214,7 @@ the following institutional goals were established:</string>
         <image name="programming" width="2001" height="1500"/>
         <image name="server1" width="318" height="159"/>
         <image name="video1-1" width="641" height="316"/>
-        <image name="video2-1" width="16" height="16"/>
+        <image name="video2-1" width="854" height="392"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ZgN-tu-frm"/>
