@@ -126,6 +126,26 @@ class ViewController: UIViewController {
         
         UIApplication.shared.open(URL(string: "https://youtu.be/YkOzV7mZCWs")! as URL, options: [:], completionHandler: nil)
     }
+    
+    @IBAction func videoPlayOne(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "https://youtu.be/1mIAb227WxY")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    
+    
+    @IBAction func videoPlayTwo(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "https://youtu.be/hD9m6NbRTSg")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    
+    
+    
     @IBAction func menuTapped(_ sender: UIButton) {
        
         }
