@@ -12,6 +12,14 @@
 		06DF1A3D2087C93D00FAE347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DF1A3B2087C93D00FAE347 /* Main.storyboard */; };
 		06DF1A3F2087C93E00FAE347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DF1A3E2087C93E00FAE347 /* Assets.xcassets */; };
 		06DF1A422087C93E00FAE347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DF1A402087C93E00FAE347 /* LaunchScreen.storyboard */; };
+		1F1A35C6208A1853003AA400 /* securityViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35C5208A1853003AA400 /* securityViewController2.swift */; };
+		1F1A35C8208A1AEE003AA400 /* systemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35C7208A1AEE003AA400 /* systemsViewController.swift */; };
+		1F1A35CA208A1BB5003AA400 /* securityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35C9208A1BB5003AA400 /* securityViewController.swift */; };
+		1F1A35CC208A1E5C003AA400 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35CB208A1E5C003AA400 /* aboutViewController.swift */; };
+		1F1A35CE208A1E99003AA400 /* developmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35CD208A1E99003AA400 /* developmentViewController.swift */; };
+		1F1A35D0208A1EE6003AA400 /* learnToCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35CF208A1EE6003AA400 /* learnToCodeViewController.swift */; };
+		1F1A35D2208A1F34003AA400 /* certificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35D1208A1F34003AA400 /* certificationsViewController.swift */; };
+		1F1A35D4208A1F74003AA400 /* playItAgainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35D3208A1F74003AA400 /* playItAgainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		06DF1A3E2087C93E00FAE347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DF1A412087C93E00FAE347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06DF1A432087C93E00FAE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1A35C5208A1853003AA400 /* securityViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = securityViewController2.swift; sourceTree = "<group>"; };
+		1F1A35C7208A1AEE003AA400 /* systemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = systemsViewController.swift; sourceTree = "<group>"; };
+		1F1A35C9208A1BB5003AA400 /* securityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = securityViewController.swift; sourceTree = "<group>"; };
+		1F1A35CB208A1E5C003AA400 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		1F1A35CD208A1E99003AA400 /* developmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developmentViewController.swift; sourceTree = "<group>"; };
+		1F1A35CF208A1EE6003AA400 /* learnToCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnToCodeViewController.swift; sourceTree = "<group>"; };
+		1F1A35D1208A1F34003AA400 /* certificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = certificationsViewController.swift; sourceTree = "<group>"; };
+		1F1A35D3208A1F74003AA400 /* playItAgainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playItAgainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,14 @@
 				06DF1A372087C93D00FAE347 /* AppDelegate.swift */,
 				06DF1A392087C93D00FAE347 /* ViewController.swift */,
 				06DF1A3B2087C93D00FAE347 /* Main.storyboard */,
+				1F1A35D3208A1F74003AA400 /* playItAgainViewController.swift */,
+				1F1A35D1208A1F34003AA400 /* certificationsViewController.swift */,
+				1F1A35CF208A1EE6003AA400 /* learnToCodeViewController.swift */,
+				1F1A35CD208A1E99003AA400 /* developmentViewController.swift */,
+				1F1A35CB208A1E5C003AA400 /* aboutViewController.swift */,
+				1F1A35C9208A1BB5003AA400 /* securityViewController.swift */,
+				1F1A35C7208A1AEE003AA400 /* systemsViewController.swift */,
+				1F1A35C5208A1853003AA400 /* securityViewController2.swift */,
 				06DF1A3E2087C93E00FAE347 /* Assets.xcassets */,
 				06DF1A402087C93E00FAE347 /* LaunchScreen.storyboard */,
 				06DF1A432087C93E00FAE347 /* Info.plist */,
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1A35C6208A1853003AA400 /* securityViewController2.swift in Sources */,
+				1F1A35D0208A1EE6003AA400 /* learnToCodeViewController.swift in Sources */,
+				1F1A35D4208A1F74003AA400 /* playItAgainViewController.swift in Sources */,
+				1F1A35CA208A1BB5003AA400 /* securityViewController.swift in Sources */,
+				1F1A35CC208A1E5C003AA400 /* aboutViewController.swift in Sources */,
+				1F1A35C8208A1AEE003AA400 /* systemsViewController.swift in Sources */,
 				06DF1A3A2087C93D00FAE347 /* ViewController.swift in Sources */,
 				06DF1A382087C93D00FAE347 /* AppDelegate.swift in Sources */,
+				1F1A35D2208A1F34003AA400 /* certificationsViewController.swift in Sources */,
+				1F1A35CE208A1E99003AA400 /* developmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

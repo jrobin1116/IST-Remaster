@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="ZgN-tu-frm"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="" id="ZgN-tu-frm"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ldv-ml-C91"/>
                     </connections>
                 </navigationController>
@@ -71,7 +71,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Znh-Kr-Kci"/>
-                                            <segue destination="vGn-B8-1Zk" kind="show" id="lDF-d5-GUr"/>
+                                            <segue destination="vGn-B8-1Zk" kind="show" identifier="aboutSegue" id="lDF-d5-GUr"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ui-gl-f5G">
@@ -85,7 +85,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="06j-VU-wCm"/>
-                                            <segue destination="Iuj-mq-5SO" kind="show" id="we9-Ze-eiA"/>
+                                            <segue destination="Iuj-mq-5SO" kind="show" identifier="securitySegue" id="we9-Ze-eiA"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-4q-NBf">
@@ -99,7 +99,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Pj-Ez-cPN"/>
-                                            <segue destination="ajK-Gc-sfP" kind="show" id="8b8-cp-kPp"/>
+                                            <segue destination="ajK-Gc-sfP" kind="show" identifier="developmentSegue" id="8b8-cp-kPp"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHG-36-Yol">
@@ -113,7 +113,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TYy-zQ-yML"/>
-                                            <segue destination="OTb-eP-zk1" kind="show" id="sY5-Wf-Zee"/>
+                                            <segue destination="OTb-eP-zk1" kind="show" identifier="systemsViewController" id="sY5-Wf-Zee"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20f-NO-eKw">
@@ -127,7 +127,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nE4-3P-FN9"/>
-                                            <segue destination="I7a-KH-zRQ" kind="show" id="d5E-Ko-K0Z"/>
+                                            <segue destination="I7a-KH-zRQ" kind="show" identifier="learnToCodeSegue" id="d5E-Ko-K0Z"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGd-pe-np4">
@@ -141,7 +141,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vKC-9h-p3F"/>
-                                            <segue destination="X3B-NV-D5g" kind="show" id="Jvi-hK-Crv"/>
+                                            <segue destination="X3B-NV-D5g" kind="show" identifier="certificationsSegue" id="Jvi-hK-Crv"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wh-IH-Ffc">
@@ -155,7 +155,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rza-6c-9Pz"/>
-                                            <segue destination="Z2B-VX-V7e" kind="show" id="VMh-0C-9PD"/>
+                                            <segue destination="Z2B-VX-V7e" kind="show" identifier="playItAgainSegue" id="VMh-0C-9PD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -461,7 +461,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nq0-4R-EkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="816.79999999999995" y="1441.6256157635469"/>
+            <point key="canvasLocation" x="633" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y1f-X9-Kd2">
@@ -485,7 +485,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jVg-XE-0Ve" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1749.5999999999999" y="635.53223388305855"/>
+            <point key="canvasLocation" x="1316" y="582"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2xt-3X-b4Q">
@@ -509,7 +509,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Vp-yF-9aH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2637.5999999999999" y="635.53223388305855"/>
+            <point key="canvasLocation" x="2012" y="589"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YRS-uW-u3P">
@@ -700,7 +700,7 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bbq-xq-48O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1066.4000000000001" y="1478.5714285714287"/>
+            <point key="canvasLocation" x="-672" y="1547"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bNc-A4-TC8">
@@ -834,7 +834,7 @@ the following institutional goals were established:</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdD-GM-RXg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2940" y="814.28571428571433"/>
+            <point key="canvasLocation" x="-2228" y="813"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="j24-9R-fgk">
@@ -1037,53 +1037,29 @@ the following institutional goals were established:</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36t-eL-IDO" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3525.5999999999999" y="634.72906403940885"/>
+            <point key="canvasLocation" x="2749" y="589"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="byZ-h4-Vg0">
+        <scene sceneID="xhR-uf-dRK">
             <objects>
-                <viewController id="Iuj-mq-5SO" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZaF-zc-1r2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
+                <viewController id="YJm-jT-Lvd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cHH-FG-wmm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jEi-jb-w72">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="2966"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OTk-mw-QfO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="b8A-uU-H1J">
-                                        <rect key="frame" x="67" y="91" width="240" height="128"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="wWS-93-MPA"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2018-04-17 at 10.43.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="kaR-dL-GnG">
+                                        <rect key="frame" x="39" y="479" width="336" height="153"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si1-s5-0Ar">
-                                        <rect key="frame" x="33" y="244" width="309" height="126"/>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                        </accessibility>
-                                        <string key="text">The Cyber Defense concentration focuses on network security and digital forensics. In the cybersecurity and privacy program, students will learn how to thwart cyber attacks and how to design privacy and security compliant systems to protect computer systems and sensitive data.</string>
-                                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="14"/>
-                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt">
-                                                <rect key="frame" x="19" y="15" width="336" height="46"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-sT-dad">
-                                                <rect key="frame" x="67" y="78" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="41" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDr-Hi-s2d">
-                                                <rect key="frame" x="33" y="665" width="322" height="512"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Information security analysts typically do the following:
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sWI-61-fN5">
+                                        <rect key="frame" x="39" y="110" width="336" height="534"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">Information security analysts typically do the following:
 
 - Monitor their organization’s networks for security breaches and investigate a violation when one occurs
 
@@ -1099,78 +1075,205 @@ the following institutional goals were established:</string>
 
 - Recommend security enhancements to management or senior IT staff
 
-- Help computer users when they need to install or learn about new security products and procedures</string>
-                                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="14"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2018-04-17 at 10.43.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Rqb-MD-6qd">
-                                                <rect key="frame" x="19" y="1246" width="336" height="153"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNM-E2-RSo">
-                                                <rect key="frame" x="19" y="269" width="132" height="72"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button" image="video1-1"/>
-                                                <connections>
-                                                    <action selector="videoPlayOne:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="7Wr-HE-fh8"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dq-gq-h4D">
-                                                <rect key="frame" x="223" y="269" width="132" height="72"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button" image="video2-1"/>
-                                                <connections>
-                                                    <action selector="videoPlayTwo:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="pGf-Fc-6Os"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jws-rs-oO3">
-                                                <rect key="frame" x="33" y="372" width="309" height="187"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <accessibility key="accessibilityConfiguration">
-                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                </accessibility>
-                                                <string key="text">The Cyber Defense concentration focuses on network security and digital forensics. In the cybersecurity and privacy program, students will learn how to thwart cyber attacks and how to design privacy and security compliant systems to protect computer systems and sensitive data.</string>
-                                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+- Help computer users when they need to install or learn about new security products and procedures</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLs-jX-QFy">
+                                        <rect key="frame" x="0.0" y="66" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <items>
+                                            <navigationItem title="Career Description" id="QoI-SH-BOZ">
+                                                <barButtonItem key="backBarButtonItem" title="Back" id="pAu-1j-IvU"/>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
+                                </subviews>
+                                <color key="backgroundColor" red="0.34294041450000001" green="0.1184362518" blue="0.101431994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <viewLayoutGuide key="safeArea" id="sqi-es-daN"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dEU-Zb-EF9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8n-PF-41l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3390" y="757"/>
+        </scene>
+        <!--Security View Controller-->
+        <scene sceneID="byZ-h4-Vg0">
+            <objects>
+                <viewController id="Iuj-mq-5SO" customClass="securityViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZaF-zc-1r2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNM-E2-RSo">
+                                        <rect key="frame" x="19" y="269" width="132" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="video1-1"/>
+                                    </button>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jws-rs-oO3">
+                                        <rect key="frame" x="33" y="372" width="309" height="187"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                        </accessibility>
+                                        <string key="text">The Cyber Defense concentration focuses on network security and digital forensics. In the cybersecurity and privacy program, students will learn how to thwart cyber attacks and how to design privacy and security compliant systems to protect computer systems and sensitive data.</string>
+                                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50q-RE-Poe">
+                                        <rect key="frame" x="106" y="591" width="163" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="What Jobs Will You Do?"/>
+                                        <connections>
+                                            <segue destination="iG6-Sh-zHm" kind="show" identifier="securitySegue2" id="9cN-7v-YLy"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt" customClass="UI">
+                                        <rect key="frame" x="19" y="43" width="336" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dq-gq-h4D">
+                                        <rect key="frame" x="223" y="269" width="132" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="video2-1"/>
+                                    </button>
+                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAp-6v-KIP">
+                                        <rect key="frame" x="-8" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <items>
+                                            <navigationItem id="qXK-As-x8W">
+                                                <barButtonItem key="backBarButtonItem" title="Back" id="Vvg-dU-Xox"/>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-sT-dad">
+                                        <rect key="frame" x="67" y="97" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.43069948190000001" green="0.11832421110000001" blue="0.1102511264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="0Mm-9i-6fD"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="750"/>
+                    <connections>
+                        <outlet property="onButton1Press" destination="50q-RE-Poe" id="A70-yg-I3I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgi-lm-B0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1470.289855072464" y="689.67391304347836"/>
+        </scene>
+        <!--Security View Controller2-->
+        <scene sceneID="z3v-xn-7Rd">
+            <objects>
+                <viewController id="iG6-Sh-zHm" customClass="securityViewController2" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IPI-gn-N8l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="av7-Wr-8Qn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21K-kc-RX0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2G-Up-23w">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCl-RS-Amo">
+                                                        <rect key="frame" x="39" y="166" width="336" height="771"/>
+                                                        <color key="backgroundColor" red="0.34294041450000001" green="0.1184362518" blue="0.101431994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <mutableString key="text">Information security analysts typically do the following:
+
+- Monitor their organization’s networks for security breaches and investigate a violation when one occurs
+
+- Install and use software, such as firewalls and data encryption programs, to protect sensitive information
+
+- Prepare reports that document security breaches and the extent of the damage caused by the breaches
+
+- Conduct penetration testing, which is when analysts simulate attacks to look for vulnerabilities in their systems before they can be exploited
+
+- Research the latest information technology (IT) security trends
+
+- Develop security standards and best practices for their organization
+
+- Recommend security enhancements to management or senior IT staff
+
+- Help computer users when they need to install or learn about new security products and procedures</mutableString>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-04-17 at 10.43.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Ccn-hB-sKh">
+                                                        <rect key="frame" x="50" y="945" width="336" height="153"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="153" id="XU6-Dr-J78"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.34294041450000001" green="0.1184362518" blue="0.101431994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="Ccn-hB-sKh" firstAttribute="top" secondItem="TCl-RS-Amo" secondAttribute="bottom" constant="8" id="1lF-Od-3r6"/>
+                                                    <constraint firstAttribute="trailing" secondItem="TCl-RS-Amo" secondAttribute="trailing" constant="39" id="9h6-rL-DV4"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Ccn-hB-sKh" secondAttribute="bottom" constant="102" id="Cxv-ie-Vpq"/>
+                                                    <constraint firstItem="Ccn-hB-sKh" firstAttribute="leading" secondItem="U2G-Up-23w" secondAttribute="leading" constant="50" id="DII-lv-Hbb"/>
+                                                    <constraint firstItem="TCl-RS-Amo" firstAttribute="top" secondItem="UOy-xo-6JU" secondAttribute="top" constant="146" id="Kuu-0X-2ts"/>
+                                                    <constraint firstItem="TCl-RS-Amo" firstAttribute="leading" secondItem="U2G-Up-23w" secondAttribute="leading" constant="39" id="Vf2-B8-IyT"/>
+                                                    <constraint firstItem="Ccn-hB-sKh" firstAttribute="top" secondItem="TCl-RS-Amo" secondAttribute="bottom" constant="8" id="Xhv-cd-Cwn"/>
+                                                    <constraint firstItem="Ccn-hB-sKh" firstAttribute="top" secondItem="TCl-RS-Amo" secondAttribute="bottom" constant="8" id="p6g-vf-XQO"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Ccn-hB-sKh" secondAttribute="trailing" constant="28" id="xtR-s7-HUb"/>
+                                                </constraints>
+                                                <viewLayoutGuide key="safeArea" id="UOy-xo-6JU"/>
+                                            </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.43069948190000001" green="0.11832421110000001" blue="0.1102511264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3000" id="RIL-jf-DeT"/>
+                                            <constraint firstAttribute="bottom" secondItem="U2G-Up-23w" secondAttribute="bottom" id="Jle-Hv-RWQ"/>
+                                            <constraint firstItem="U2G-Up-23w" firstAttribute="top" secondItem="21K-kc-RX0" secondAttribute="top" id="Nwg-G4-Fmo"/>
+                                            <constraint firstAttribute="trailing" secondItem="U2G-Up-23w" secondAttribute="trailing" id="SOF-eW-cn9"/>
+                                            <constraint firstItem="U2G-Up-23w" firstAttribute="leading" secondItem="21K-kc-RX0" secondAttribute="leading" id="f6f-Og-5XD"/>
+                                            <constraint firstAttribute="height" constant="1200" id="uJO-Tc-hh1"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="si1-s5-0Ar" firstAttribute="top" secondItem="b8A-uU-H1J" secondAttribute="bottom" constant="25" id="8e3-PW-OZ5"/>
-                                    <constraint firstItem="b8A-uU-H1J" firstAttribute="centerX" secondItem="si1-s5-0Ar" secondAttribute="centerX" id="B4g-cv-soK"/>
-                                    <constraint firstAttribute="bottom" secondItem="ImO-5c-rLZ" secondAttribute="bottom" constant="-34" id="ELe-PY-kEP"/>
-                                    <constraint firstItem="ImO-5c-rLZ" firstAttribute="leading" secondItem="jEi-jb-w72" secondAttribute="leading" id="Eej-cA-VFH"/>
-                                    <constraint firstItem="si1-s5-0Ar" firstAttribute="leading" secondItem="jEi-jb-w72" secondAttribute="leading" constant="33" id="WxE-TM-RDz"/>
-                                    <constraint firstAttribute="trailing" secondItem="ImO-5c-rLZ" secondAttribute="trailing" id="dlS-hE-js0"/>
-                                    <constraint firstItem="ImO-5c-rLZ" firstAttribute="centerX" secondItem="b8A-uU-H1J" secondAttribute="centerX" id="e0F-YX-f3w"/>
-                                    <constraint firstItem="b8A-uU-H1J" firstAttribute="leading" secondItem="jEi-jb-w72" secondAttribute="leading" constant="67" id="gwp-Ku-Q1H"/>
-                                    <constraint firstItem="b8A-uU-H1J" firstAttribute="centerX" secondItem="jEi-jb-w72" secondAttribute="centerX" id="keF-Re-j9Z"/>
-                                    <constraint firstItem="b8A-uU-H1J" firstAttribute="top" secondItem="jEi-jb-w72" secondAttribute="top" constant="91" id="kk9-hJ-rvk"/>
-                                    <constraint firstItem="ImO-5c-rLZ" firstAttribute="top" secondItem="jEi-jb-w72" secondAttribute="top" id="lJD-zW-ZLU"/>
+                                    <constraint firstAttribute="trailing" secondItem="21K-kc-RX0" secondAttribute="trailing" id="JRF-XO-yzU"/>
+                                    <constraint firstItem="21K-kc-RX0" firstAttribute="top" secondItem="av7-Wr-8Qn" secondAttribute="top" id="RMj-8l-dlW"/>
+                                    <constraint firstAttribute="bottom" secondItem="21K-kc-RX0" secondAttribute="bottom" id="joH-VZ-u4i"/>
+                                    <constraint firstItem="21K-kc-RX0" firstAttribute="leading" secondItem="av7-Wr-8Qn" secondAttribute="leading" id="xgj-7F-I4K"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="jEi-jb-w72" secondAttribute="trailing" id="Ea9-sG-EXy"/>
-                            <constraint firstItem="jEi-jb-w72" firstAttribute="top" secondItem="ZaF-zc-1r2" secondAttribute="top" id="MIL-5X-0a9"/>
-                            <constraint firstItem="jEi-jb-w72" firstAttribute="leading" secondItem="ZaF-zc-1r2" secondAttribute="leading" id="ebp-o3-Mq7"/>
-                            <constraint firstItem="0Mm-9i-6fD" firstAttribute="bottom" secondItem="jEi-jb-w72" secondAttribute="bottom" constant="34" id="jMy-jy-vqk"/>
+                            <constraint firstItem="21K-kc-RX0" firstAttribute="width" secondItem="IPI-gn-N8l" secondAttribute="width" id="1QA-a7-TNK"/>
+                            <constraint firstItem="av7-Wr-8Qn" firstAttribute="trailing" secondItem="aaF-nN-xQH" secondAttribute="trailing" id="2aH-KE-Fee"/>
+                            <constraint firstItem="av7-Wr-8Qn" firstAttribute="top" secondItem="IPI-gn-N8l" secondAttribute="top" id="csm-8T-2Fk"/>
+                            <constraint firstItem="av7-Wr-8Qn" firstAttribute="leading" secondItem="aaF-nN-xQH" secondAttribute="leading" id="hyu-cb-EiP"/>
+                            <constraint firstItem="av7-Wr-8Qn" firstAttribute="bottom" secondItem="aaF-nN-xQH" secondAttribute="bottom" id="rl8-aU-Jb7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="0Mm-9i-6fD"/>
+                        <viewLayoutGuide key="safeArea" id="aaF-nN-xQH"/>
                     </view>
-                    <size key="freeformSize" width="375" height="3000"/>
+                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tgi-lm-B0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nc0-zm-Fdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2080.434782608696" y="1442.1195652173915"/>
+            <point key="canvasLocation" x="-1471.0144927536232" y="1588.858695652174"/>
         </scene>
     </scenes>
     <resources>
