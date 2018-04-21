@@ -20,6 +20,8 @@
 		1F1A35D0208A1EE6003AA400 /* learnToCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35CF208A1EE6003AA400 /* learnToCodeViewController.swift */; };
 		1F1A35D2208A1F34003AA400 /* certificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35D1208A1F34003AA400 /* certificationsViewController.swift */; };
 		1F1A35D4208A1F74003AA400 /* playItAgainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35D3208A1F74003AA400 /* playItAgainViewController.swift */; };
+		1F1A35D8208B141D003AA400 /* securityIndeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35D7208B141D003AA400 /* securityIndeedViewController.swift */; };
+		1F1A35DA208B1CF2003AA400 /* securityNortheastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A35D9208B1CF2003AA400 /* securityNortheastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		1F1A35CF208A1EE6003AA400 /* learnToCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnToCodeViewController.swift; sourceTree = "<group>"; };
 		1F1A35D1208A1F34003AA400 /* certificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = certificationsViewController.swift; sourceTree = "<group>"; };
 		1F1A35D3208A1F74003AA400 /* playItAgainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playItAgainViewController.swift; sourceTree = "<group>"; };
+		1F1A35D7208B141D003AA400 /* securityIndeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = securityIndeedViewController.swift; sourceTree = "<group>"; };
+		1F1A35D9208B1CF2003AA400 /* securityNortheastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = securityNortheastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 				1F1A35C9208A1BB5003AA400 /* securityViewController.swift */,
 				1F1A35C7208A1AEE003AA400 /* systemsViewController.swift */,
 				1F1A35C5208A1853003AA400 /* securityViewController2.swift */,
+				1F1A35D7208B141D003AA400 /* securityIndeedViewController.swift */,
 				06DF1A3E2087C93E00FAE347 /* Assets.xcassets */,
+				1F1A35D9208B1CF2003AA400 /* securityNortheastViewController.swift */,
 				06DF1A402087C93E00FAE347 /* LaunchScreen.storyboard */,
 				06DF1A432087C93E00FAE347 /* Info.plist */,
 			);
@@ -161,6 +167,8 @@
 			files = (
 				1F1A35C6208A1853003AA400 /* securityViewController2.swift in Sources */,
 				1F1A35D0208A1EE6003AA400 /* learnToCodeViewController.swift in Sources */,
+				1F1A35D8208B141D003AA400 /* securityIndeedViewController.swift in Sources */,
+				1F1A35DA208B1CF2003AA400 /* securityNortheastViewController.swift in Sources */,
 				1F1A35D4208A1F74003AA400 /* playItAgainViewController.swift in Sources */,
 				1F1A35CA208A1BB5003AA400 /* securityViewController.swift in Sources */,
 				1F1A35CC208A1E5C003AA400 /* aboutViewController.swift in Sources */,

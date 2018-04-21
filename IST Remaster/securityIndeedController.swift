@@ -1,14 +1,14 @@
 //
-//  securityViewController2.swift
+//  securityIndeedController.swift
 //  IST Remaster
 //
-//  Created by MyMac on 4/20/18.
+//  Created by MyMac on 4/21/18.
 //  Copyright © 2018 Matthew Windham. All rights reserved.
 //
 
 import UIKit
 
-class securityViewController2: UIViewController {
+class securityIndeedController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,14 +21,6 @@ class securityViewController2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet var onButtonClick: UIButton!
-    @IBAction func onButton1Press(_ sender: Any) {
-        
-        performSegue(withIdentifier: "securitySegue3", sender: self)
+
   
-    }
-    
-    
-    
-    
 }
