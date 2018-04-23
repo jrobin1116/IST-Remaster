@@ -12,27 +12,40 @@ import UIKit
 
 class securityViewController: UIViewController {
 
-    @IBOutlet var webView1: UIWebView!
-    
-    
-    @IBOutlet var webView2: UIWebView!
-    
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        webView1.loadHTMLString("<iframe width=\"\(webView1.frame.width)\" height=\"\(webView1.frame.height)\" src=\"https://www.youtube.com/embed/1mIAb227WxY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>", baseURL: nil)
-        
-        webView2.loadHTMLString("<iframe width=\"\(webView2.frame.width)\" height=\"\(webView2.frame.height)\" src=\"https://www.youtube.com/embed/hD9m6NbRTSg\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>", baseURL: nil)
-        
+   
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func buttonVideo1(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://youtu.be/1mIAb227WxY")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    @IBAction func buttonVideo2(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string:"https://youtu.be/hD9m6NbRTSg")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
+    
+    @IBAction func northeastButton(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string:"http://catalog.nemcc.edu/preview_program.php?catoid=7&poid=478&returnto=410")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
     
     
     
