@@ -60,13 +60,13 @@
                                             <action selector="handleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sqo-aY-cH4"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLa-92-9bC">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLa-92-9bC" userLabel="About NEMCC &amp; IST">
                                         <rect key="frame" x="0.0" y="-20" width="414" height="50"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="tnB-VI-fz7"/>
                                         </constraints>
-                                        <state key="normal" title="About the IT Department">
+                                        <state key="normal" title="About NEMCC &amp; IST">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -130,7 +130,7 @@
                                             <segue destination="Z2B-VX-V7e" kind="show" id="iR7-NW-A3D"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGd-pe-np4">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGd-pe-np4" userLabel="CompTIA Certification Roadmap">
                                         <rect key="frame" x="0.0" y="-20" width="414" height="50"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -620,13 +620,6 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svh-hJ-0nN">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About &amp; FAQ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-2H-pgF">
-                                                <rect key="frame" x="107" y="8" width="161" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Advisors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZT-wy-MGU">
                                                 <rect key="frame" x="136" y="49" width="103" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -685,18 +678,19 @@ Beyond this original scope, Northeast responds to the needs of all who seek a co
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXF-ZV-f7f">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXF-ZV-f7f">
                                                 <rect key="frame" x="25" y="692" width="325" height="88"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">To accomplish the intended role and scope of the college, 
 the following institutional goals were established:</string>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-rh-DYQ">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-rh-DYQ">
                                                 <rect key="frame" x="25" y="788" width="338" height="421"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="421" id="yF9-MX-GXm"/>
+                                                </constraints>
                                                 <string key="text">•	To provide degree and certificate programs that prepare students 
 •	for continued studies or immediate employment.
 •	To provide a program of student services that will facilitate the educational, career, personal, and social growth of students.
@@ -709,10 +703,22 @@ the following institutional goals were established:</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About NEMCC &amp; IST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-2H-pgF">
+                                                <rect key="frame" x="59" y="0.0" width="254" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="WHc-rh-DYQ" firstAttribute="top" secondItem="PXF-ZV-f7f" secondAttribute="bottom" constant="8" symbolic="YES" id="3SW-s1-J2w"/>
+                                            <constraint firstAttribute="trailing" secondItem="WHc-rh-DYQ" secondAttribute="trailing" constant="12" id="7OP-nb-Z7B"/>
                                             <constraint firstAttribute="height" constant="1300" id="De7-wf-p5z"/>
+                                            <constraint firstItem="WHc-rh-DYQ" firstAttribute="leading" secondItem="svh-hJ-0nN" secondAttribute="leading" constant="25" id="EIY-Hd-Tso"/>
+                                            <constraint firstAttribute="bottom" secondItem="WHc-rh-DYQ" secondAttribute="bottom" constant="91" id="i0e-Vq-H3b"/>
+                                            <constraint firstItem="WHc-rh-DYQ" firstAttribute="leading" secondItem="PXF-ZV-f7f" secondAttribute="leading" id="lgd-Gc-biN"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1348,7 +1354,7 @@ NEMCC offers many certifications at a discounted rate for students!</string>
         <image name="Untitled34" width="193" height="37"/>
         <image name="X Icon.png" width="16" height="16"/>
         <image name="apple" width="2250" height="1500"/>
-        <image name="compTIA-logo" width="16" height="16"/>
+        <image name="compTIA-logo" width="705" height="350"/>
         <image name="cybersecurity-rules-linkedin" width="720" height="438"/>
         <image name="iPhone 8 Plus" width="375" height="667"/>
         <image name="imac" width="2250" height="1500"/>
