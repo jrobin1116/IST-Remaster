@@ -66,7 +66,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="tnB-VI-fz7"/>
                                         </constraints>
-                                        <state key="normal" title="About &amp; FAQ">
+                                        <state key="normal" title="About NEMCC &amp; IST">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -130,7 +130,7 @@
                                             <segue destination="Z2B-VX-V7e" kind="show" id="iR7-NW-A3D"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGd-pe-np4" userLabel="CompTIA Certification Roadmap">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGd-pe-np4">
                                         <rect key="frame" x="0.0" y="-20" width="414" height="50"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -627,23 +627,29 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svh-hJ-0nN">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Advisors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZT-wy-MGU">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advisors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZT-wy-MGU">
                                                 <rect key="frame" x="136" y="49" width="103" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="JNq-Sz-Rcd"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dr. Natasha Lewis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCG-GM-CeC">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Natasha Lewis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCG-GM-CeC">
                                                 <rect key="frame" x="107" y="87" width="159" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="23" id="JiJ-Ik-i4z"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFN-gh-mid">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFN-gh-mid">
                                                 <rect key="frame" x="41" y="118" width="292" height="92"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="92" id="BwM-Kp-0LX"/>
+                                                </constraints>
                                                 <string key="text">Instructor, Information Systems Technology
 Gordon Hall - (662) 720-7303
 nmlewis@nemcc.edu</string>
@@ -651,16 +657,20 @@ nmlewis@nemcc.edu</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nick Jackson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXk-DL-9vg">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nick Jackson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXk-DL-9vg">
                                                 <rect key="frame" x="127" y="218" width="118" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="23" id="88p-Ne-lGe"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrr-et-TTE">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrr-et-TTE">
                                                 <rect key="frame" x="31" y="249" width="312" height="91"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="91" id="VkQ-Qm-Tv8"/>
+                                                </constraints>
                                                 <string key="text">Instructor, Information Systems Technology
 Gordon Hall - (662) 720-7268
 nljackson@nemcc.edu</string>
@@ -668,16 +678,17 @@ nljackson@nemcc.edu</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About NEMCC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuI-ya-upt">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About NEMCC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuI-ya-upt">
                                                 <rect key="frame" x="103" y="348" width="169" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="oTP-oQ-ikW"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz7-1A-5lN">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz7-1A-5lN">
                                                 <rect key="frame" x="31" y="386" width="312" height="298"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Northeast Mississippi Community College is a public, comprehensive community college that exists to meet the educational and career needs of individual students and the community within the district it serves – Alcorn, Prentiss, Tippah,
 Tishomingo and Union Counties – by awarding the Associate of Arts Degree, Associate of Applied Science Degree and Certificates.
 Beyond this original scope, Northeast responds to the needs of all who seek a college education.</string>
@@ -685,8 +696,11 @@ Beyond this original scope, Northeast responds to the needs of all who seek a co
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXF-ZV-f7f">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXF-ZV-f7f">
                                                 <rect key="frame" x="25" y="692" width="325" height="88"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="88" id="B1C-Y9-Csi"/>
+                                                </constraints>
                                                 <string key="text">To accomplish the intended role and scope of the college, 
 the following institutional goals were established:</string>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
@@ -710,9 +724,11 @@ the following institutional goals were established:</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About NEMCC &amp; IST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-2H-pgF">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About NEMCC &amp; IST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-2H-pgF">
                                                 <rect key="frame" x="59" y="0.0" width="254" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="33" id="RsK-Ld-g8E"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -722,10 +738,31 @@ the following institutional goals were established:</string>
                                         <constraints>
                                             <constraint firstItem="WHc-rh-DYQ" firstAttribute="top" secondItem="PXF-ZV-f7f" secondAttribute="bottom" constant="8" symbolic="YES" id="3SW-s1-J2w"/>
                                             <constraint firstAttribute="trailing" secondItem="WHc-rh-DYQ" secondAttribute="trailing" constant="12" id="7OP-nb-Z7B"/>
+                                            <constraint firstItem="PCG-GM-CeC" firstAttribute="centerX" secondItem="JFN-gh-mid" secondAttribute="centerX" id="8vq-Jg-PTt"/>
+                                            <constraint firstItem="mrr-et-TTE" firstAttribute="top" secondItem="qXk-DL-9vg" secondAttribute="bottom" constant="8" symbolic="YES" id="93U-zN-ruD"/>
+                                            <constraint firstItem="RZT-wy-MGU" firstAttribute="top" secondItem="S7n-2H-pgF" secondAttribute="bottom" constant="16" id="CW3-hY-lrO"/>
                                             <constraint firstAttribute="height" constant="1300" id="De7-wf-p5z"/>
                                             <constraint firstItem="WHc-rh-DYQ" firstAttribute="leading" secondItem="svh-hJ-0nN" secondAttribute="leading" constant="25" id="EIY-Hd-Tso"/>
+                                            <constraint firstItem="mrr-et-TTE" firstAttribute="trailing" secondItem="Kz7-1A-5lN" secondAttribute="trailing" id="Ehu-Dj-Uup"/>
+                                            <constraint firstItem="JFN-gh-mid" firstAttribute="centerX" secondItem="svh-hJ-0nN" secondAttribute="centerX" id="GnI-dT-u5H"/>
+                                            <constraint firstItem="JFN-gh-mid" firstAttribute="leading" secondItem="svh-hJ-0nN" secondAttribute="leading" constant="41" id="IUC-Ny-9fG"/>
+                                            <constraint firstItem="qXk-DL-9vg" firstAttribute="top" secondItem="JFN-gh-mid" secondAttribute="bottom" constant="8" symbolic="YES" id="KMv-n3-mGr"/>
+                                            <constraint firstItem="mrr-et-TTE" firstAttribute="leading" secondItem="Kz7-1A-5lN" secondAttribute="leading" id="Kpz-or-pNt"/>
+                                            <constraint firstItem="Kz7-1A-5lN" firstAttribute="top" secondItem="OuI-ya-upt" secondAttribute="bottom" constant="8" symbolic="YES" id="N5N-wI-hbm"/>
+                                            <constraint firstItem="RZT-wy-MGU" firstAttribute="centerX" secondItem="JFN-gh-mid" secondAttribute="centerX" id="QLH-ja-agq"/>
+                                            <constraint firstItem="PCG-GM-CeC" firstAttribute="top" secondItem="RZT-wy-MGU" secondAttribute="bottom" constant="8" symbolic="YES" id="QqP-ls-4S2"/>
+                                            <constraint firstItem="OuI-ya-upt" firstAttribute="top" secondItem="mrr-et-TTE" secondAttribute="bottom" constant="8" symbolic="YES" id="UdD-9Q-4p1"/>
+                                            <constraint firstItem="JFN-gh-mid" firstAttribute="centerX" secondItem="mrr-et-TTE" secondAttribute="centerX" id="WWk-va-3Oe"/>
+                                            <constraint firstItem="PCG-GM-CeC" firstAttribute="centerX" secondItem="qXk-DL-9vg" secondAttribute="centerX" id="YkL-q9-xhq"/>
+                                            <constraint firstItem="mrr-et-TTE" firstAttribute="leading" secondItem="svh-hJ-0nN" secondAttribute="leading" constant="31" id="eeU-8R-3n0"/>
+                                            <constraint firstItem="mrr-et-TTE" firstAttribute="centerX" secondItem="OuI-ya-upt" secondAttribute="centerX" id="g7V-ZN-oiZ"/>
                                             <constraint firstAttribute="bottom" secondItem="WHc-rh-DYQ" secondAttribute="bottom" constant="91" id="i0e-Vq-H3b"/>
+                                            <constraint firstItem="S7n-2H-pgF" firstAttribute="top" secondItem="svh-hJ-0nN" secondAttribute="top" id="iba-BL-f2S"/>
+                                            <constraint firstItem="S7n-2H-pgF" firstAttribute="centerX" secondItem="PCG-GM-CeC" secondAttribute="centerX" id="itY-Ir-SvJ"/>
                                             <constraint firstItem="WHc-rh-DYQ" firstAttribute="leading" secondItem="PXF-ZV-f7f" secondAttribute="leading" id="lgd-Gc-biN"/>
+                                            <constraint firstItem="JFN-gh-mid" firstAttribute="top" secondItem="PCG-GM-CeC" secondAttribute="bottom" constant="8" symbolic="YES" id="n02-Q5-8KP"/>
+                                            <constraint firstItem="PXF-ZV-f7f" firstAttribute="top" secondItem="Kz7-1A-5lN" secondAttribute="bottom" constant="8" symbolic="YES" id="nIr-8o-ZY9"/>
+                                            <constraint firstItem="Kz7-1A-5lN" firstAttribute="centerX" secondItem="PXF-ZV-f7f" secondAttribute="centerX" id="zax-X5-MS9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
