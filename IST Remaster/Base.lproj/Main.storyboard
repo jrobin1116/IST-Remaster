@@ -114,7 +114,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TYy-zQ-yML"/>
-                                            <segue destination="OTb-eP-zk1" kind="show" identifier="systemsViewController" id="sY5-Wf-Zee"/>
+                                            <segue destination="qTN-UT-89o" kind="show" id="iFr-ZG-rTb"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20f-NO-eKw">
@@ -206,132 +206,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-79" y="-240"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="UTU-Mv-EHH">
-            <objects>
-                <viewController id="OTb-eP-zk1" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zmR-ij-sjO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OKu-QZ-djz">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Q6-kI-Brf">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="754" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLV-zS-jPv">
-                                                <rect key="frame" x="74" y="42" width="226" height="24"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Some responsibilities of a Systems Administrator may include:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVr-hQ-sYE">
-                                                <rect key="frame" x="35" y="854" width="305" height="48"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="753" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBm-8i-DdX">
-                                                <rect key="frame" x="24" y="343" width="326" height="182.66666666666663"/>
-                                                <string key="text">A Systems Administrator is someone who is responsible for setting up and maintaining all of the computer systems that make a company's workflow possible. The main goal of an Administrator is to make sure that the uptime, resources, performance, and security of the systems they administer meet the needs of the users. </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="server1" translatesAutoresizingMaskIntoConstraints="NO" id="2Y1-yT-XKI">
-                                                <rect key="frame" x="60" y="111" width="254" height="159"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5p-nw-b5k">
-                                                <rect key="frame" x="15.333333333333343" y="928" width="334.66666666666663" height="183"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="183" id="fYR-x5-PAS"/>
-                                                </constraints>
-                                                <string key="text">Installing and configuring new hardware, configuring user accounts on the system, identifying and fixing potentialm problems with the system, installing patches and updates to the system, making sure the network is running properly, securing the network and infrastructure, and any other responsibilities that ensure the running of a business environment.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="What is Systems Administration?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gb-w1-Zkm">
-                                                <rect key="frame" x="41" y="278" width="285" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" misplaced="YES" text="To watch a video on a day in the life of a Systems Admin, click here:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2b-TR-lRt">
-                                                <rect key="frame" x="15" y="569" width="345.33333333333331" height="88"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="88" id="Zf4-9C-rRh"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.090040154755115509" green="0.082146503031253815" blue="0.40715992450714111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="U5p-nw-b5k" secondAttribute="bottom" constant="89" id="178-1T-iC6"/>
-                                            <constraint firstItem="U5p-nw-b5k" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Q6-kI-Brf" secondAttribute="leading" id="65a-ho-Mch"/>
-                                            <constraint firstItem="5gb-w1-Zkm" firstAttribute="top" secondItem="2Y1-yT-XKI" secondAttribute="bottom" constant="8" id="7hC-WU-kH2"/>
-                                            <constraint firstItem="CLV-zS-jPv" firstAttribute="top" secondItem="6Q6-kI-Brf" secondAttribute="top" constant="42" id="L1B-ym-AYT"/>
-                                            <constraint firstItem="2Y1-yT-XKI" firstAttribute="top" secondItem="CLV-zS-jPv" secondAttribute="bottom" constant="45" id="MiH-qG-evK"/>
-                                            <constraint firstItem="U2b-TR-lRt" firstAttribute="top" secondItem="6Q6-kI-Brf" secondAttribute="top" constant="569" id="SOf-2C-vLn"/>
-                                            <constraint firstItem="CLV-zS-jPv" firstAttribute="leading" secondItem="6Q6-kI-Brf" secondAttribute="leading" constant="74" id="Tmb-OH-HCy"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CLV-zS-jPv" secondAttribute="trailing" id="UQt-ba-eMD"/>
-                                            <constraint firstItem="5gb-w1-Zkm" firstAttribute="leading" secondItem="6Q6-kI-Brf" secondAttribute="leading" constant="41" id="WXF-Be-yO0"/>
-                                            <constraint firstItem="U5p-nw-b5k" firstAttribute="top" secondItem="dVr-hQ-sYE" secondAttribute="bottom" constant="26" id="cEh-2G-gE0"/>
-                                            <constraint firstAttribute="trailing" secondItem="OBm-8i-DdX" secondAttribute="trailing" constant="25" id="d2w-Wz-hjk"/>
-                                            <constraint firstAttribute="trailing" secondItem="2Y1-yT-XKI" secondAttribute="trailing" constant="61" id="dTN-dS-FFK"/>
-                                            <constraint firstItem="2Y1-yT-XKI" firstAttribute="leading" secondItem="6Q6-kI-Brf" secondAttribute="leading" constant="60" id="dgk-fa-7Sv"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5gb-w1-Zkm" secondAttribute="trailing" id="ef2-Gr-gul"/>
-                                            <constraint firstItem="OBm-8i-DdX" firstAttribute="top" secondItem="5gb-w1-Zkm" secondAttribute="bottom" constant="41" id="gf0-WM-KJP"/>
-                                            <constraint firstItem="OBm-8i-DdX" firstAttribute="leading" secondItem="6Q6-kI-Brf" secondAttribute="leading" constant="24" id="leL-dy-sdD"/>
-                                            <constraint firstAttribute="trailing" secondItem="U5p-nw-b5k" secondAttribute="trailing" constant="25" id="o1Y-Sh-bdS"/>
-                                            <constraint firstAttribute="trailing" secondItem="dVr-hQ-sYE" secondAttribute="trailing" constant="35" id="qrK-wh-YGN"/>
-                                            <constraint firstItem="dVr-hQ-sYE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Q6-kI-Brf" secondAttribute="leading" id="up0-XO-Uer"/>
-                                            <constraint firstItem="U2b-TR-lRt" firstAttribute="leading" secondItem="6Q6-kI-Brf" secondAttribute="leading" constant="15" id="w5O-tr-Kik"/>
-                                        </constraints>
-                                    </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbC-jG-TX3">
-                                        <rect key="frame" x="117" y="731" width="141" height="36"/>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="A Day in the Life">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="onButtonPress:" destination="OTb-eP-zk1" eventType="touchUpInside" id="5FI-9z-oIh"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="6Q6-kI-Brf" secondAttribute="bottom" id="2Ib-GG-PU1"/>
-                                    <constraint firstItem="6Q6-kI-Brf" firstAttribute="centerX" secondItem="OKu-QZ-djz" secondAttribute="centerX" id="6HP-rE-qbm"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dbC-jG-TX3" secondAttribute="trailing" id="CG6-1x-4Vb"/>
-                                    <constraint firstItem="6Q6-kI-Brf" firstAttribute="top" secondItem="OKu-QZ-djz" secondAttribute="top" id="Jqd-yW-xEf"/>
-                                    <constraint firstItem="dVr-hQ-sYE" firstAttribute="top" secondItem="dbC-jG-TX3" secondAttribute="bottom" constant="87" id="P3z-4A-kQ4"/>
-                                    <constraint firstItem="6Q6-kI-Brf" firstAttribute="centerY" secondItem="OKu-QZ-djz" secondAttribute="centerY" id="iwB-yM-n5c"/>
-                                    <constraint firstItem="6Q6-kI-Brf" firstAttribute="leading" secondItem="OKu-QZ-djz" secondAttribute="leading" id="m0d-iy-x30"/>
-                                    <constraint firstAttribute="trailing" secondItem="6Q6-kI-Brf" secondAttribute="trailing" id="tUJ-10-keH"/>
-                                    <constraint firstItem="dbC-jG-TX3" firstAttribute="leading" secondItem="OKu-QZ-djz" secondAttribute="leading" constant="117" id="vDm-t8-Eqv"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.090040154755115509" green="0.082146503031253815" blue="0.40715992450714111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="OKu-QZ-djz" firstAttribute="bottom" secondItem="sjk-i9-KOG" secondAttribute="bottom" id="9s2-Ot-hWi"/>
-                            <constraint firstItem="OKu-QZ-djz" firstAttribute="leading" secondItem="zmR-ij-sjO" secondAttribute="leading" id="EIj-Wz-H6a"/>
-                            <constraint firstAttribute="trailing" secondItem="OKu-QZ-djz" secondAttribute="trailing" id="FKq-YU-Htv"/>
-                            <constraint firstItem="OKu-QZ-djz" firstAttribute="top" secondItem="zmR-ij-sjO" secondAttribute="top" id="x4M-C1-5Ea"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="sjk-i9-KOG"/>
-                    </view>
-                    <size key="freeformSize" width="375" height="1200"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fIu-vI-M6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-81.884057971014499" y="777.71739130434787"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FDV-bE-zro">
@@ -914,7 +788,7 @@ the following institutional goals were established:</string>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UbM-ED-lhC">
-                                <rect key="frame" x="267" y="446" width="144" height="87"/>
+                                <rect key="frame" x="267" y="446" width="105" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="87" id="XLJ-eK-Fzx"/>
                                     <constraint firstAttribute="width" constant="105" id="vik-Ar-TKg"/>
@@ -936,7 +810,7 @@ the following institutional goals were established:</string>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ3-yf-K41">
-                                <rect key="frame" x="267" y="307" width="144" height="87"/>
+                                <rect key="frame" x="267" y="307" width="105" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="87" id="nEE-n7-gP3"/>
                                     <constraint firstAttribute="height" constant="87" id="qd9-Iv-y2v"/>
@@ -981,7 +855,7 @@ the following institutional goals were established:</string>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S84-gM-7lK">
-                                <rect key="frame" x="0.0" y="36" width="304" height="49"/>
+                                <rect key="frame" x="0.0" y="36" width="265" height="49"/>
                                 <color key="backgroundColor" red="0.42352941176470588" green="0.34901960784313724" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="4ku-28-A0G"/>
@@ -1305,7 +1179,6 @@ the following institutional goals were established:</string>
         <!--Security Indeed View Controller-->
         <scene sceneID="QZG-mJ-kZS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w3f-KJ-G70" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="mgx-ol-EIO" customClass="securityIndeedViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
                     <webView key="view" contentMode="scaleToFill" id="fcO-Za-GtC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -1316,8 +1189,133 @@ the following institutional goals were established:</string>
                         <outlet property="indeedWebView" destination="fcO-Za-GtC" id="FRd-W6-ZDz"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w3f-KJ-G70" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2071" y="2820"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ziW-K1-a6W">
+            <objects>
+                <viewController id="qTN-UT-89o" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ltw-bI-2Hs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="de1-Vx-ybQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YV5-hh-v8r">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIU-4d-aId">
+                                                <rect key="frame" x="74" y="42" width="226" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Some responsibilities of a Systems Administrator may include:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5e-xU-yJI">
+                                                <rect key="frame" x="81" y="795.5" width="213" height="72"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cN-9Y-yPb">
+                                                <rect key="frame" x="95" y="708" width="185" height="46.5"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="A Day in the Life">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onButtonPress:" destination="qTN-UT-89o" eventType="touchUpInside" id="RFn-og-dqJ"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="To watch a video on a day in the life of a Systems Admin, click here:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wom-Ow-EZO">
+                                                <rect key="frame" x="73" y="572" width="229" height="72"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSW-ep-DPA">
+                                                <rect key="frame" x="27" y="344" width="321" height="183"/>
+                                                <string key="text">A Systems Administrator is someone who is responsible for setting up and maintaining all of the computer systems that make a company's workflow possible. The main goal of an Administrator is to make sure that the uptime, resources, performance, and security of the systems they administer meet the needs of the users. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What is Systems Administration?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3c-oL-Bb7">
+                                                <rect key="frame" x="40" y="298" width="294" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="server1" translatesAutoresizingMaskIntoConstraints="NO" id="tOC-A2-UyB">
+                                                <rect key="frame" x="60" y="111" width="254" height="159"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Sp-in-e2j">
+                                                <rect key="frame" x="49" y="888.5" width="277" height="223.5"/>
+                                                <string key="text">Installing and configuring new hardware, configuring user accounts on the system, identifying and fixing potentialm problems with the system, installing patches and updates to the system, making sure the network is running properly, securing the network and infrastructure, and any other responsibilities that ensure the running of a business environment.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.090040154760000005" green="0.082146503029999998" blue="0.40715992449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="N5e-xU-yJI" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="81" id="5p7-LD-66D"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Sp-in-e2j" secondAttribute="trailing" constant="49" id="63N-Rw-FoE"/>
+                                            <constraint firstAttribute="height" constant="1200" id="7V0-Ot-UTl"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wom-Ow-EZO" secondAttribute="trailing" constant="73" id="9Ph-hc-2iK"/>
+                                            <constraint firstAttribute="trailing" secondItem="C3c-oL-Bb7" secondAttribute="trailing" constant="41" id="DlR-5H-PsF"/>
+                                            <constraint firstAttribute="trailing" secondItem="N5e-xU-yJI" secondAttribute="trailing" constant="81" id="Ekk-Ef-mxh"/>
+                                            <constraint firstItem="N5e-xU-yJI" firstAttribute="top" secondItem="6cN-9Y-yPb" secondAttribute="bottom" constant="41" id="INt-2R-JoM"/>
+                                            <constraint firstAttribute="trailing" secondItem="6cN-9Y-yPb" secondAttribute="trailing" constant="95" id="JRi-sl-T91"/>
+                                            <constraint firstItem="6Sp-in-e2j" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="49" id="M3c-L1-Mb2"/>
+                                            <constraint firstAttribute="bottom" secondItem="6Sp-in-e2j" secondAttribute="bottom" constant="88" id="O7n-nI-8Hd"/>
+                                            <constraint firstItem="6cN-9Y-yPb" firstAttribute="top" secondItem="Wom-Ow-EZO" secondAttribute="bottom" constant="64" id="PeB-V7-uag"/>
+                                            <constraint firstItem="6Sp-in-e2j" firstAttribute="top" secondItem="N5e-xU-yJI" secondAttribute="bottom" constant="38" id="Tb6-xH-PCB"/>
+                                            <constraint firstAttribute="trailing" secondItem="CSW-ep-DPA" secondAttribute="trailing" constant="27" id="WE5-hv-j5k"/>
+                                            <constraint firstAttribute="trailing" secondItem="tOC-A2-UyB" secondAttribute="trailing" constant="61" id="Wmn-Cx-5sE"/>
+                                            <constraint firstItem="C3c-oL-Bb7" firstAttribute="top" secondItem="tOC-A2-UyB" secondAttribute="bottom" constant="28" id="Yes-li-dSi"/>
+                                            <constraint firstItem="Wom-Ow-EZO" firstAttribute="top" secondItem="CSW-ep-DPA" secondAttribute="bottom" constant="45" id="YxN-80-zWx"/>
+                                            <constraint firstItem="tOC-A2-UyB" firstAttribute="top" secondItem="LIU-4d-aId" secondAttribute="bottom" constant="45" id="awV-P3-grS"/>
+                                            <constraint firstItem="CSW-ep-DPA" firstAttribute="top" secondItem="C3c-oL-Bb7" secondAttribute="bottom" constant="22" id="bN1-27-ig5"/>
+                                            <constraint firstItem="C3c-oL-Bb7" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="40" id="fE9-Uf-QxE"/>
+                                            <constraint firstItem="6cN-9Y-yPb" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="95" id="fsK-qD-CNP"/>
+                                            <constraint firstItem="tOC-A2-UyB" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="60" id="gcc-yj-DkF"/>
+                                            <constraint firstItem="Wom-Ow-EZO" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="73" id="hUb-xi-bdh"/>
+                                            <constraint firstItem="CSW-ep-DPA" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="27" id="l4o-9m-9gy"/>
+                                            <constraint firstItem="LIU-4d-aId" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="74" id="o6O-wL-dPO"/>
+                                            <constraint firstItem="LIU-4d-aId" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="42" id="xbO-mZ-i12"/>
+                                            <constraint firstAttribute="trailing" secondItem="LIU-4d-aId" secondAttribute="trailing" constant="75" id="yVL-g6-gFL"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YV5-hh-v8r" firstAttribute="leading" secondItem="de1-Vx-ybQ" secondAttribute="leading" id="LZC-5B-dt4"/>
+                                    <constraint firstAttribute="bottom" secondItem="YV5-hh-v8r" secondAttribute="bottom" id="QSV-ZM-VDQ"/>
+                                    <constraint firstItem="YV5-hh-v8r" firstAttribute="top" secondItem="de1-Vx-ybQ" secondAttribute="top" id="n7p-Ys-Oe7"/>
+                                    <constraint firstAttribute="height" constant="1200" id="qEv-ab-hwn"/>
+                                    <constraint firstAttribute="trailing" secondItem="YV5-hh-v8r" secondAttribute="trailing" id="uVr-TG-TlK"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090040154760000005" green="0.082146503029999998" blue="0.40715992449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="de1-Vx-ybQ" firstAttribute="top" secondItem="ltw-bI-2Hs" secondAttribute="top" id="7tL-bc-nTZ"/>
+                            <constraint firstItem="de1-Vx-ybQ" firstAttribute="leading" secondItem="Ylj-uj-EDW" secondAttribute="leading" id="J9h-XO-sst"/>
+                            <constraint firstItem="de1-Vx-ybQ" firstAttribute="bottom" secondItem="Ylj-uj-EDW" secondAttribute="bottom" id="Rvv-ug-d1h"/>
+                            <constraint firstItem="de1-Vx-ybQ" firstAttribute="trailing" secondItem="Ylj-uj-EDW" secondAttribute="trailing" id="jEP-II-6Vi"/>
+                            <constraint firstItem="YV5-hh-v8r" firstAttribute="width" secondItem="ltw-bI-2Hs" secondAttribute="width" id="oib-0L-zrb"/>
+                            <constraint firstItem="de1-Vx-ybQ" firstAttribute="width" secondItem="ltw-bI-2Hs" secondAttribute="width" id="y42-gG-lkq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ylj-uj-EDW"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fIh-Hr-anR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-51" y="778"/>
         </scene>
     </scenes>
     <resources>
