@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -369,9 +370,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFs-l2-xsY">
-                                <rect key="frame" x="51" y="69" width="308" height="238"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFs-l2-xsY">
+                                <rect key="frame" x="51" y="69" width="308" height="397"/>
                                 <string key="text">This app created by:
 Michael Boothe
 Esther Giles
@@ -384,6 +384,12 @@ Stephanie Storey</string>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ayd-8U-k7g" firstAttribute="bottom" secondItem="yFs-l2-xsY" secondAttribute="bottom" constant="270" id="3Jy-8X-Nzg"/>
+                            <constraint firstItem="yFs-l2-xsY" firstAttribute="leading" secondItem="Ayd-8U-k7g" secondAttribute="leading" constant="51" id="Jgq-sZ-eaf"/>
+                            <constraint firstItem="Ayd-8U-k7g" firstAttribute="trailing" secondItem="yFs-l2-xsY" secondAttribute="trailing" constant="55" id="VTs-dA-ZVU"/>
+                            <constraint firstItem="yFs-l2-xsY" firstAttribute="top" secondItem="Ayd-8U-k7g" secondAttribute="top" constant="49" id="naF-K5-VhA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ayd-8U-k7g"/>
                     </view>
                 </viewController>
@@ -728,25 +734,14 @@ the following institutional goals were established:</string>
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt" customClass="UI">
-                                        <rect key="frame" x="74" y="52" width="227" height="46"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="46" id="NQw-4w-Dxk"/>
-                                        </constraints>
+                                        <rect key="frame" x="74" y="52" width="227" height="31"/>
                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="27"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAp-6v-KIP">
-                                        <rect key="frame" x="-8" y="0.0" width="375" height="44"/>
-                                        <items>
-                                            <navigationItem id="qXK-As-x8W">
-                                                <barButtonItem key="backBarButtonItem" title="Back" id="Vvg-dU-Xox"/>
-                                            </navigationItem>
-                                        </items>
-                                    </navigationBar>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50q-RE-Poe">
                                         <rect key="frame" x="86" y="691" width="202" height="31"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="31" id="KuW-S7-PM1"/>
+                                            <constraint firstAttribute="height" constant="31" id="cZ0-Ei-dWi"/>
                                         </constraints>
                                         <state key="normal" image="Untitled 1"/>
                                         <connections>
@@ -756,8 +751,7 @@ the following institutional goals were established:</string>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sef-vg-h9z">
                                         <rect key="frame" x="106" y="652" width="162" height="31"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="162" id="MCB-85-iKt"/>
-                                            <constraint firstAttribute="height" constant="31" id="OH5-5x-LmZ"/>
+                                            <constraint firstAttribute="height" constant="31" id="5iO-5H-WUw"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="Untitled34"/>
                                         <connections>
@@ -773,10 +767,9 @@ the following institutional goals were established:</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-hE-Wh4">
-                                        <rect key="frame" x="134" y="234" width="106" height="55"/>
+                                        <rect key="frame" x="134" y="228" width="106" height="55"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="UhK-IY-Th8"/>
-                                            <constraint firstAttribute="width" constant="106" id="bSn-QY-VXr"/>
+                                            <constraint firstAttribute="height" constant="55" id="bDH-Dn-nbY"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="video1-2"/>
                                         <connections>
@@ -786,7 +779,7 @@ the following institutional goals were established:</string>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAA-Wh-K0z">
                                         <rect key="frame" x="134" y="291" width="106" height="55"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="TVF-rC-xY0"/>
+                                            <constraint firstAttribute="height" constant="55" id="4CT-Uy-Wii"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="video2-1"/>
                                         <connections>
@@ -794,45 +787,56 @@ the following institutional goals were established:</string>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-sT-dad">
-                                        <rect key="frame" x="87" y="98" width="201" height="128"/>
+                                        <rect key="frame" x="87" y="90" width="201" height="130"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="idA-JC-HdT"/>
+                                            <constraint firstAttribute="height" constant="130" id="sV2-MJ-k5W"/>
                                         </constraints>
                                     </imageView>
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAp-6v-KIP">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <items>
+                                            <navigationItem id="qXK-As-x8W">
+                                                <barButtonItem key="backBarButtonItem" title="Back" id="Vvg-dU-Xox"/>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
                                 </subviews>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="top" secondItem="uXd-jZ-Jip" secondAttribute="bottom" constant="8" symbolic="YES" id="6oM-Zz-y6f"/>
-                                    <constraint firstItem="c3M-sT-dad" firstAttribute="trailing" secondItem="50q-RE-Poe" secondAttribute="trailing" id="7RL-mb-d6X"/>
-                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="top" secondItem="LZW-hE-Wh4" secondAttribute="bottom" constant="2" id="8mH-Up-Hhd"/>
-                                    <constraint firstItem="c3M-sT-dad" firstAttribute="centerX" secondItem="LZW-hE-Wh4" secondAttribute="centerX" id="DWe-eW-Q80"/>
-                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="trailing" secondItem="ImO-5c-rLZ" secondAttribute="trailingMargin" id="Eea-JG-XKl"/>
-                                    <constraint firstItem="50q-RE-Poe" firstAttribute="top" secondItem="Sef-vg-h9z" secondAttribute="bottom" constant="8" symbolic="YES" id="H8w-r6-CUg"/>
-                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="centerX" secondItem="c3M-sT-dad" secondAttribute="centerX" id="IZW-vV-6zt"/>
-                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="centerX" secondItem="Sef-vg-h9z" secondAttribute="centerX" id="ML6-7u-wTD"/>
-                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="centerX" secondItem="50q-RE-Poe" secondAttribute="centerX" id="Qru-7o-odm"/>
-                                    <constraint firstItem="50q-RE-Poe" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="86" id="UIW-2q-Dzb"/>
-                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="leading" secondItem="LAA-Wh-K0z" secondAttribute="leading" id="XcJ-EV-rZm"/>
-                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="centerX" secondItem="ImO-5c-rLZ" secondAttribute="centerX" id="aw3-Jk-4eC"/>
-                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="top" secondItem="LAA-Wh-K0z" secondAttribute="bottom" constant="8" symbolic="YES" id="axy-BS-zkd"/>
-                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="top" secondItem="c3M-sT-dad" secondAttribute="bottom" constant="8" symbolic="YES" id="ayN-BA-tJB"/>
-                                    <constraint firstAttribute="trailing" secondItem="uXd-jZ-Jip" secondAttribute="trailing" constant="61" id="cKy-ke-Oo9"/>
-                                    <constraint firstAttribute="bottom" secondItem="50q-RE-Poe" secondAttribute="bottom" constant="28" id="hLE-iL-UWx"/>
-                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="leading" secondItem="uXd-jZ-Jip" secondAttribute="leading" id="hga-x6-0aq"/>
-                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="top" secondItem="rAp-6v-KIP" secondAttribute="bottom" constant="8" id="mJG-x2-aGO"/>
-                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="trailing" secondItem="LAA-Wh-K0z" secondAttribute="trailing" id="rX5-tK-Cb8"/>
-                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" id="u58-bo-ATz"/>
-                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="-8" id="wnn-Eu-C7b"/>
-                                    <constraint firstItem="c3M-sT-dad" firstAttribute="top" secondItem="UY5-n6-rzt" secondAttribute="bottom" id="ykN-Zl-6bl"/>
+                                    <constraint firstAttribute="trailing" secondItem="LZW-hE-Wh4" secondAttribute="trailing" constant="135" id="48P-Jk-bjn"/>
+                                    <constraint firstAttribute="trailing" secondItem="UY5-n6-rzt" secondAttribute="trailing" constant="74" id="9xP-3f-jkQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="c3M-sT-dad" secondAttribute="trailing" constant="87" id="A1R-bH-Bmy"/>
+                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="top" secondItem="LAA-Wh-K0z" secondAttribute="bottom" constant="8" id="Ahh-tp-ZlT"/>
+                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="top" secondItem="uXd-jZ-Jip" secondAttribute="bottom" constant="8" id="Jnd-GG-zcG"/>
+                                    <constraint firstItem="c3M-sT-dad" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="87" id="Qdx-NR-5u8"/>
+                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="106" id="RbI-EC-DGG"/>
+                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" id="Tyg-S8-6RD"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sef-vg-h9z" secondAttribute="trailing" constant="107" id="X2Q-qG-R5F"/>
+                                    <constraint firstItem="c3M-sT-dad" firstAttribute="top" secondItem="UY5-n6-rzt" secondAttribute="bottom" constant="7" id="Yyn-dg-BvZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="uXd-jZ-Jip" secondAttribute="trailing" constant="61" id="ag8-gM-amO"/>
+                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" id="bo7-KR-VgG"/>
+                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="74" id="cdk-ax-zrk"/>
+                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" constant="52" id="eDT-m6-Nm4"/>
+                                    <constraint firstAttribute="trailing" secondItem="50q-RE-Poe" secondAttribute="trailing" constant="87" id="kDl-wA-JJa"/>
+                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="top" secondItem="LZW-hE-Wh4" secondAttribute="bottom" constant="8" id="lCX-a5-Zqn"/>
+                                    <constraint firstItem="50q-RE-Poe" firstAttribute="top" secondItem="Sef-vg-h9z" secondAttribute="bottom" constant="8" symbolic="YES" id="oXS-5Y-mT5"/>
+                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="134" id="oft-AK-RNc"/>
+                                    <constraint firstItem="50q-RE-Poe" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="86" id="pvD-i2-jtS"/>
+                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="centerX" secondItem="UY5-n6-rzt" secondAttribute="centerX" id="q05-Cu-y8l"/>
+                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="134" id="qls-5F-UkB"/>
+                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="top" secondItem="c3M-sT-dad" secondAttribute="bottom" constant="8" id="tqe-3h-mbE"/>
+                                    <constraint firstAttribute="trailing" secondItem="LAA-Wh-K0z" secondAttribute="trailing" constant="135" id="uAH-KK-dll"/>
+                                    <constraint firstAttribute="bottom" secondItem="50q-RE-Poe" secondAttribute="bottom" constant="28" id="v9N-bf-Whp"/>
+                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="74" id="xOU-mc-mkB"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="ImO-5c-rLZ" secondAttribute="trailing" id="8y7-Jr-OGH"/>
-                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="top" secondItem="ZaF-zc-1r2" secondAttribute="top" id="dgk-Ku-SvE"/>
-                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="bottom" secondItem="0Mm-9i-6fD" secondAttribute="bottom" id="jwK-Rq-rHj"/>
-                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="leading" secondItem="ZaF-zc-1r2" secondAttribute="leading" id="thW-V6-GrE"/>
+                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="bottom" secondItem="0Mm-9i-6fD" secondAttribute="bottom" id="ALR-7m-clU"/>
+                            <constraint firstAttribute="trailing" secondItem="ImO-5c-rLZ" secondAttribute="trailing" id="LCp-FF-0JR"/>
+                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="leading" secondItem="ZaF-zc-1r2" secondAttribute="leading" id="chH-gJ-RRj"/>
+                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="top" secondItem="ZaF-zc-1r2" secondAttribute="top" id="jUJ-HT-YnT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0Mm-9i-6fD"/>
                     </view>
@@ -987,20 +991,23 @@ the following institutional goals were established:</string>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YV5-hh-v8r">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIU-4d-aId">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIU-4d-aId">
                                                 <rect key="frame" x="74" y="42" width="226" height="24"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Some responsibilities of a Systems Administrator may include:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5e-xU-yJI">
-                                                <rect key="frame" x="81" y="795.5" width="213" height="72"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some responsibilities of a Systems Administrator may include:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5e-xU-yJI">
+                                                <rect key="frame" x="81" y="795.66666666666663" width="213" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cN-9Y-yPb">
-                                                <rect key="frame" x="95" y="708" width="185" height="46.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cN-9Y-yPb">
+                                                <rect key="frame" x="95" y="708" width="185" height="46.666666666666629"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="46.666666666666629" id="X1h-u2-b3w"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="A Day in the Life">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1009,64 +1016,75 @@ the following institutional goals were established:</string>
                                                     <action selector="onButtonPress:" destination="qTN-UT-89o" eventType="touchUpInside" id="RFn-og-dqJ"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="To watch a video on a day in the life of a Systems Admin, click here:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wom-Ow-EZO">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To watch a video on a day in the life of a Systems Admin, click here:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wom-Ow-EZO">
                                                 <rect key="frame" x="73" y="572" width="229" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSW-ep-DPA">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSW-ep-DPA">
                                                 <rect key="frame" x="27" y="344" width="321" height="183"/>
                                                 <string key="text">A Systems Administrator is someone who is responsible for setting up and maintaining all of the computer systems that make a company's workflow possible. The main goal of an Administrator is to make sure that the uptime, resources, performance, and security of the systems they administer meet the needs of the users. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What is Systems Administration?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3c-oL-Bb7">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Systems Administration?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3c-oL-Bb7">
                                                 <rect key="frame" x="40" y="298" width="294" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="server1" translatesAutoresizingMaskIntoConstraints="NO" id="tOC-A2-UyB">
-                                                <rect key="frame" x="60" y="111" width="254" height="159"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Sp-in-e2j">
-                                                <rect key="frame" x="49" y="888.5" width="277" height="223.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Sp-in-e2j">
+                                                <rect key="frame" x="49" y="888.66666666666663" width="277" height="223.33333333333337"/>
                                                 <string key="text">Installing and configuring new hardware, configuring user accounts on the system, identifying and fixing potentialm problems with the system, installing patches and updates to the system, making sure the network is running properly, securing the network and infrastructure, and any other responsibilities that ensure the running of a business environment.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="server1" translatesAutoresizingMaskIntoConstraints="NO" id="tOC-A2-UyB">
+                                                <rect key="frame" x="54" y="95" width="266" height="159"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="tOC-A2-UyB" secondAttribute="height" multiplier="266:159" id="URy-94-UCk"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="N5e-xU-yJI" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="81" id="5p7-LD-66D"/>
-                                            <constraint firstAttribute="trailing" secondItem="6Sp-in-e2j" secondAttribute="trailing" constant="49" id="63N-Rw-FoE"/>
+                                            <constraint firstAttribute="trailing" secondItem="N5e-xU-yJI" secondAttribute="trailing" constant="81" id="1Sj-Xc-gr1"/>
+                                            <constraint firstItem="C3c-oL-Bb7" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="40" id="4yb-0h-jBe"/>
+                                            <constraint firstItem="Wom-Ow-EZO" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="73" id="6fq-Qz-Ki1"/>
                                             <constraint firstAttribute="height" constant="1200" id="7V0-Ot-UTl"/>
-                                            <constraint firstAttribute="trailing" secondItem="Wom-Ow-EZO" secondAttribute="trailing" constant="73" id="9Ph-hc-2iK"/>
-                                            <constraint firstAttribute="trailing" secondItem="C3c-oL-Bb7" secondAttribute="trailing" constant="41" id="DlR-5H-PsF"/>
-                                            <constraint firstAttribute="trailing" secondItem="N5e-xU-yJI" secondAttribute="trailing" constant="81" id="Ekk-Ef-mxh"/>
-                                            <constraint firstItem="N5e-xU-yJI" firstAttribute="top" secondItem="6cN-9Y-yPb" secondAttribute="bottom" constant="41" id="INt-2R-JoM"/>
-                                            <constraint firstAttribute="trailing" secondItem="6cN-9Y-yPb" secondAttribute="trailing" constant="95" id="JRi-sl-T91"/>
-                                            <constraint firstItem="6Sp-in-e2j" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="49" id="M3c-L1-Mb2"/>
-                                            <constraint firstAttribute="bottom" secondItem="6Sp-in-e2j" secondAttribute="bottom" constant="88" id="O7n-nI-8Hd"/>
-                                            <constraint firstItem="6cN-9Y-yPb" firstAttribute="top" secondItem="Wom-Ow-EZO" secondAttribute="bottom" constant="64" id="PeB-V7-uag"/>
-                                            <constraint firstItem="6Sp-in-e2j" firstAttribute="top" secondItem="N5e-xU-yJI" secondAttribute="bottom" constant="38" id="Tb6-xH-PCB"/>
-                                            <constraint firstAttribute="trailing" secondItem="CSW-ep-DPA" secondAttribute="trailing" constant="27" id="WE5-hv-j5k"/>
-                                            <constraint firstAttribute="trailing" secondItem="tOC-A2-UyB" secondAttribute="trailing" constant="61" id="Wmn-Cx-5sE"/>
-                                            <constraint firstItem="C3c-oL-Bb7" firstAttribute="top" secondItem="tOC-A2-UyB" secondAttribute="bottom" constant="28" id="Yes-li-dSi"/>
-                                            <constraint firstItem="Wom-Ow-EZO" firstAttribute="top" secondItem="CSW-ep-DPA" secondAttribute="bottom" constant="45" id="YxN-80-zWx"/>
-                                            <constraint firstItem="tOC-A2-UyB" firstAttribute="top" secondItem="LIU-4d-aId" secondAttribute="bottom" constant="45" id="awV-P3-grS"/>
-                                            <constraint firstItem="CSW-ep-DPA" firstAttribute="top" secondItem="C3c-oL-Bb7" secondAttribute="bottom" constant="22" id="bN1-27-ig5"/>
-                                            <constraint firstItem="C3c-oL-Bb7" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="40" id="fE9-Uf-QxE"/>
-                                            <constraint firstItem="6cN-9Y-yPb" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="95" id="fsK-qD-CNP"/>
-                                            <constraint firstItem="tOC-A2-UyB" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="60" id="gcc-yj-DkF"/>
-                                            <constraint firstItem="Wom-Ow-EZO" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="73" id="hUb-xi-bdh"/>
-                                            <constraint firstItem="CSW-ep-DPA" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="27" id="l4o-9m-9gy"/>
-                                            <constraint firstItem="LIU-4d-aId" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="74" id="o6O-wL-dPO"/>
-                                            <constraint firstItem="LIU-4d-aId" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="42" id="xbO-mZ-i12"/>
-                                            <constraint firstAttribute="trailing" secondItem="LIU-4d-aId" secondAttribute="trailing" constant="75" id="yVL-g6-gFL"/>
+                                            <constraint firstAttribute="trailing" secondItem="CSW-ep-DPA" secondAttribute="trailing" constant="27" id="816-QW-Pg4"/>
+                                            <constraint firstItem="LIU-4d-aId" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="74" id="D9a-6j-buX"/>
+                                            <constraint firstItem="N5e-xU-yJI" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="81" id="Liw-bT-lN0"/>
+                                            <constraint firstItem="tOC-A2-UyB" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="54" id="Reo-mH-9Xt"/>
+                                            <constraint firstItem="C3c-oL-Bb7" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="298" id="SNJ-7X-yqe"/>
+                                            <constraint firstAttribute="trailing" secondItem="6cN-9Y-yPb" secondAttribute="trailing" constant="95" id="SPF-CW-OPZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="tOC-A2-UyB" secondAttribute="trailing" constant="55" id="Tsa-n6-agQ"/>
+                                            <constraint firstItem="Wom-Ow-EZO" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="572" id="VKo-WX-eGI"/>
+                                            <constraint firstItem="C3c-oL-Bb7" firstAttribute="top" secondItem="tOC-A2-UyB" secondAttribute="bottom" constant="44" id="Wtc-NE-G4b"/>
+                                            <constraint firstItem="6cN-9Y-yPb" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="95" id="X8I-8N-jfs"/>
+                                            <constraint firstItem="LIU-4d-aId" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="42" id="Xgp-xc-dTH"/>
+                                            <constraint firstAttribute="bottom" secondItem="6cN-9Y-yPb" secondAttribute="bottom" constant="445.5" id="YBF-EG-KPF"/>
+                                            <constraint firstAttribute="bottom" secondItem="LIU-4d-aId" secondAttribute="bottom" constant="1134" id="cyB-C5-Uy8"/>
+                                            <constraint firstAttribute="trailing" secondItem="LIU-4d-aId" secondAttribute="trailing" constant="75" id="dOu-rd-PPG"/>
+                                            <constraint firstItem="tOC-A2-UyB" firstAttribute="width" secondItem="YV5-hh-v8r" secondAttribute="width" constant="-109" id="dk4-WK-AC8"/>
+                                            <constraint firstAttribute="bottom" secondItem="C3c-oL-Bb7" secondAttribute="bottom" constant="878" id="gc1-g5-H4h"/>
+                                            <constraint firstItem="N5e-xU-yJI" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="795.5" id="iOS-EK-LYC"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Sp-in-e2j" secondAttribute="trailing" constant="49" id="iiX-pb-3sv"/>
+                                            <constraint firstAttribute="bottom" secondItem="6Sp-in-e2j" secondAttribute="bottom" constant="88" id="jeD-VH-nbW"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wom-Ow-EZO" secondAttribute="trailing" constant="73" id="mGZ-dk-DG8"/>
+                                            <constraint firstAttribute="bottom" secondItem="Wom-Ow-EZO" secondAttribute="bottom" constant="556" id="mxb-ie-H48"/>
+                                            <constraint firstItem="6Sp-in-e2j" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="888.5" id="nuD-8W-wOI"/>
+                                            <constraint firstAttribute="bottom" secondItem="CSW-ep-DPA" secondAttribute="bottom" constant="673" id="nzA-Br-tDX"/>
+                                            <constraint firstAttribute="trailing" secondItem="C3c-oL-Bb7" secondAttribute="trailing" constant="41" id="ozr-mM-EUz"/>
+                                            <constraint firstItem="6cN-9Y-yPb" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="708" id="qW4-xY-sra"/>
+                                            <constraint firstItem="tOC-A2-UyB" firstAttribute="top" secondItem="LIU-4d-aId" secondAttribute="bottom" constant="29" id="qzm-Tc-maP"/>
+                                            <constraint firstAttribute="bottom" secondItem="N5e-xU-yJI" secondAttribute="bottom" constant="332.5" id="tjz-d3-Snk"/>
+                                            <constraint firstItem="6Sp-in-e2j" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="49" id="xf9-s8-0nk"/>
+                                            <constraint firstItem="CSW-ep-DPA" firstAttribute="leading" secondItem="YV5-hh-v8r" secondAttribute="leading" constant="27" id="yDY-7r-awg"/>
+                                            <constraint firstItem="CSW-ep-DPA" firstAttribute="top" secondItem="YV5-hh-v8r" secondAttribute="top" constant="344" id="zyy-W9-Bs4"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1095,7 +1113,7 @@ the following institutional goals were established:</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIh-Hr-anR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79" y="778"/>
+            <point key="canvasLocation" x="-66" y="801"/>
         </scene>
         <!--Certifications View Controller-->
         <scene sceneID="G9J-gA-id0">
@@ -1105,44 +1123,23 @@ the following institutional goals were established:</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Certifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZ8-yM-pqG">
-                                <rect key="frame" x="149" y="20" width="116" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Ngz-w1-29j"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Certifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZ8-yM-pqG">
+                                <rect key="frame" x="110" y="52" width="195" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CompTIA Certification Roadmap" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGp-oH-5TO">
-                                <rect key="frame" x="79" y="68" width="256" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="W5z-83-Kq9"/>
-                                </constraints>
+                                <rect key="frame" x="79" y="84" width="256" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-UJ-lUu">
-                                <rect key="frame" x="32" y="95" width="355" height="479"/>
-                                <string key="text">The Computing Technology Industry Association (CompTIA) is the leading provider of vendor-neutral IT certifications in the world.
-
-With more than 2,000,000 IT certifications issued worldwide, CompTIA is dedicated to helping IT professionals lead the charge in our digitally connected world.
-
-For more than 20 years, CompTIA has developed training and certification exams for computing support, networking, security, open-source (Linux) development, cloud and mobility. Our regular review and updates of exams ensure that CompTIA certifications continue to address the needs of today’s technology challenges.
-
-Click the button below for a downloadable roadmap for certifications!
-
-NEMCC offers many certifications at a discounted rate for students!</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTb-TY-yEs">
-                                <rect key="frame" x="89" y="601" width="241" height="124"/>
+                                <rect key="frame" x="87" y="592" width="241" height="124"/>
                                 <color key="backgroundColor" red="0.81176470590000005" green="0.82352941180000006" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="124" id="u6e-ES-jFg"/>
+                                    <constraint firstAttribute="height" constant="124" id="KSo-eg-xba"/>
                                 </constraints>
                                 <color key="tintColor" red="0.80392156859999997" green="0.70588235290000001" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="compTIA-logo">
@@ -1152,28 +1149,43 @@ NEMCC offers many certifications at a discounted rate for students!</string>
                                     <action selector="openWebsite:" destination="B8b-R7-uc7" eventType="touchUpInside" id="cVy-FB-hOm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-UJ-lUu">
+                                <rect key="frame" x="30" y="112" width="355" height="408"/>
+                                <string key="text">The Computing Technology Industry Association (CompTIA) is the leading provider of vendor-neutral IT certifications in the world.
+
+With more than 2,000,000 IT certifications issued worldwide, CompTIA is dedicated to helping IT professionals lead the charge in our digitally connected world.
+
+For more than 20 years, CompTIA has developed training and certification exams for computing support, networking, security, open-source (Linux) development, cloud and mobility. Our regular review and updates of exams ensure that CompTIA certifications continue to address the needs of today’s technology challenges.
+
+Click the button below for a downloadable roadmap for certifications!
+
+NEMCC offers many certifications at a discounted rate for students!</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.80392156859999997" green="0.70588235290000001" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iLc-UJ-lUu" firstAttribute="top" secondItem="LGp-oH-5TO" secondAttribute="bottom" constant="6" id="0CZ-Gj-iXC"/>
-                            <constraint firstItem="HIA-5M-fQf" firstAttribute="trailing" secondItem="iLc-UJ-lUu" secondAttribute="trailing" constant="27" id="2wv-7s-a4u"/>
-                            <constraint firstItem="iLc-UJ-lUu" firstAttribute="leading" secondItem="HIA-5M-fQf" secondAttribute="leading" constant="32" id="3tR-ex-WV9"/>
-                            <constraint firstItem="LGp-oH-5TO" firstAttribute="top" secondItem="iZ8-yM-pqG" secondAttribute="bottom" constant="8" symbolic="YES" id="CM6-uT-Nqz"/>
-                            <constraint firstItem="HIA-5M-fQf" firstAttribute="bottom" secondItem="rTb-TY-yEs" secondAttribute="bottom" constant="11" id="Heb-Jt-6bu"/>
-                            <constraint firstItem="iZ8-yM-pqG" firstAttribute="centerX" secondItem="LGp-oH-5TO" secondAttribute="centerX" id="NL8-oX-MFJ"/>
-                            <constraint firstItem="iZ8-yM-pqG" firstAttribute="centerX" secondItem="wTH-10-S7V" secondAttribute="centerX" id="Wey-NQ-PmP"/>
-                            <constraint firstItem="iZ8-yM-pqG" firstAttribute="leading" secondItem="HIA-5M-fQf" secondAttribute="leading" constant="149" id="gJm-qy-kVt"/>
-                            <constraint firstItem="rTb-TY-yEs" firstAttribute="leading" secondItem="HIA-5M-fQf" secondAttribute="leading" constant="89" id="l3s-40-trn"/>
-                            <constraint firstItem="iZ8-yM-pqG" firstAttribute="top" secondItem="HIA-5M-fQf" secondAttribute="top" id="oSH-9a-rfC"/>
-                            <constraint firstItem="rTb-TY-yEs" firstAttribute="top" secondItem="iLc-UJ-lUu" secondAttribute="bottom" constant="27" id="qnp-Vb-p7R"/>
-                            <constraint firstItem="iLc-UJ-lUu" firstAttribute="centerX" secondItem="rTb-TY-yEs" secondAttribute="centerX" id="ym4-Gh-Yf8"/>
+                            <constraint firstItem="iLc-UJ-lUu" firstAttribute="leading" secondItem="HIA-5M-fQf" secondAttribute="leading" constant="30" id="4gI-2n-IUV"/>
+                            <constraint firstItem="HIA-5M-fQf" firstAttribute="trailing" secondItem="iLc-UJ-lUu" secondAttribute="trailing" constant="29" id="9dB-cy-hR6"/>
+                            <constraint firstItem="rTb-TY-yEs" firstAttribute="centerX" secondItem="iLc-UJ-lUu" secondAttribute="centerX" id="A4O-xx-lsO"/>
+                            <constraint firstItem="LGp-oH-5TO" firstAttribute="top" secondItem="iZ8-yM-pqG" secondAttribute="bottom" constant="8" id="IM0-Tb-VHG"/>
+                            <constraint firstItem="iLc-UJ-lUu" firstAttribute="top" secondItem="LGp-oH-5TO" secondAttribute="bottom" constant="7.6666666666666714" id="Zc0-NM-4RH"/>
+                            <constraint firstItem="HIA-5M-fQf" firstAttribute="trailing" secondItem="iZ8-yM-pqG" secondAttribute="trailing" constant="109" id="cCd-9a-L9Q"/>
+                            <constraint firstItem="HIA-5M-fQf" firstAttribute="trailing" secondItem="LGp-oH-5TO" secondAttribute="trailing" constant="79" id="d39-Wh-xdg"/>
+                            <constraint firstItem="rTb-TY-yEs" firstAttribute="leading" secondItem="HIA-5M-fQf" secondAttribute="leading" constant="87" id="fcA-Vj-Cki"/>
+                            <constraint firstItem="LGp-oH-5TO" firstAttribute="leading" secondItem="HIA-5M-fQf" secondAttribute="leading" constant="79" id="ino-hE-JEe"/>
+                            <constraint firstItem="iZ8-yM-pqG" firstAttribute="leading" secondItem="HIA-5M-fQf" secondAttribute="leading" constant="110" id="ito-dp-06i"/>
+                            <constraint firstItem="iZ8-yM-pqG" firstAttribute="top" secondItem="HIA-5M-fQf" secondAttribute="top" constant="32" id="ja2-Pi-Z8t"/>
+                            <constraint firstAttribute="bottom" secondItem="rTb-TY-yEs" secondAttribute="bottom" constant="20" symbolic="YES" id="vz6-2B-vVR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HIA-5M-fQf"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Zd-az-xhe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1320" y="589"/>
+            <point key="canvasLocation" x="1318.840579710145" y="587.77173913043487"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gop-f9-JaX">
