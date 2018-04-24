@@ -99,7 +99,7 @@
                                         </state>
                                         <connections>
                                             <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Pj-Ez-cPN"/>
-                                            <segue destination="jcZ-wi-7Rj" kind="show" id="5KV-S0-hyw"/>
+                                            <segue destination="wLa-NA-NMr" kind="show" id="f5p-TH-e9o"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHG-36-Yol">
@@ -1188,108 +1188,39 @@ NEMCC offers many certifications at a discounted rate for students!</string>
             <point key="canvasLocation" x="1318.840579710145" y="587.77173913043487"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Gop-f9-JaX">
+        <scene sceneID="Oie-LV-CjM">
             <objects>
-                <viewController id="jcZ-wi-7Rj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Awv-n0-aRp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                <viewController id="wLa-NA-NMr" customClass="ViewController" customModule="IST_Remaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ajh-oi-JbH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="3100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IOS Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oot-EG-A3x">
-                                <rect key="frame" x="58" y="38" width="299" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TT6-8B-vYb">
-                                <rect key="frame" x="58" y="307" width="258" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
-                                <state key="normal" title="What is IOS App Developement and how does it differ from Software Programming?">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="un7-0R-YZr" kind="show" id="ntw-lh-ZL9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="31z-cU-VLE">
-                                <rect key="frame" x="58" y="389" width="258" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
-                                <state key="normal" title="What does a career in IOS App Developement entail?">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="56a-gq-5I7" kind="show" id="juw-T7-C2G"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DLR-zv-eMe">
-                                <rect key="frame" x="58" y="474" width="258" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
-                                <state key="normal" title="What are employers looking for in IOS App Developement?">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="xlk-Mg-IgX" kind="show" id="pi8-O5-krP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Skz-JR-yh8">
-                                <rect key="frame" x="58" y="555" width="258" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
-                                <state key="normal" title="What classes will I need to take?">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0W5-Dc-tvx" kind="show" id="WMt-cv-B6a"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="61O-qA-aba">
-                                <rect key="frame" x="58" y="624" width="127" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
-                                <state key="normal" title="Check for jobs.">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple-1" translatesAutoresizingMaskIntoConstraints="NO" id="bR3-5S-BLQ">
-                                <rect key="frame" x="36" y="91" width="343" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVy-bA-hmX">
-                                <rect key="frame" x="20" y="310" width="22" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="w1R-KW-O5c"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cDu-TQ-pNO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-759" y="599"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="euk-KL-NhC">
-            <objects>
-                <viewController id="un7-0R-YZr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Zre-aF-5sX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XI6-AS-5k9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ce-9C-MyO">
+                                <rect key="frame" x="0.0" y="20" width="375" height="3080"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yzy-JT-gUD">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3d-eY-MZb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="3100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2B-Yc-Lti">
-                                                <rect key="frame" x="64" y="389" width="287" height="689"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IOS Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZn-sK-Dxx">
+                                                <rect key="frame" x="89" y="15" width="196" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="o9Y-GZ-QiI">
+                                                <rect key="frame" x="67" y="52" width="240" height="143"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is IOS App Development and how does it differ from Software Programming?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBk-aF-URf">
+                                                <rect key="frame" x="25" y="203" width="324" height="81"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kq-qU-LbQ">
+                                                <rect key="frame" x="44" y="292" width="287" height="689"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Although there are many differences between IOS App Development and Software Programming, they are also fairly similar in nature. 
 
@@ -1304,101 +1235,39 @@ In conclusion, IOS App Development tends to focus more on design, interfaces, an
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information on designing vs developing, click the button below!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOY-ev-809">
-                                                <rect key="frame" x="98" y="1094" width="218" height="84"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For more information on designing vs developing, click the button below!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKY-02-dfS">
+                                                <rect key="frame" x="78" y="989" width="218" height="84"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCG-0G-0n0">
-                                                <rect key="frame" x="120" y="1186" width="175" height="70"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wR2-M3-bBw">
+                                                <rect key="frame" x="96" y="1081" width="175" height="70"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                                 <state key="normal" title="Learn More!">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sJE-0Z-MCc">
-                                                <rect key="frame" x="83" y="1298" width="248" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                                <state key="normal" title="&gt;&gt;Go to next section: ">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
                                                 <connections>
-                                                    <segue destination="56a-gq-5I7" kind="show" id="A2R-Sk-UrN"/>
+                                                    <action selector="LearnMore:" destination="wLa-NA-NMr" eventType="touchUpInside" id="FbK-PG-DUM"/>
+                                                    <action selector="onButtonPress:" destination="wLa-NA-NMr" eventType="touchUpInside" id="z8W-D1-ihg"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;What does a career in IOS App Development entail?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B79-j2-RBc">
-                                                <rect key="frame" x="92" y="1334" width="230" height="58"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What does a career in IOS App Development entail?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9o-Ub-zjf">
+                                                <rect key="frame" x="44" y="1159" width="287" height="61"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is IOS App Development and how does it differ from Software Programming?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fR-0u-NVm">
-                                                <rect key="frame" x="39" y="42" width="337" height="122"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="t7s-IP-wKe">
-                                                <rect key="frame" x="48" y="190" width="319" height="168"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imac" translatesAutoresizingMaskIntoConstraints="NO" id="M6W-yt-v3N">
+                                                <rect key="frame" x="67" y="1228" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Yzy-JT-gUD" secondAttribute="bottom" id="1br-tF-QLf"/>
-                                    <constraint firstItem="Yzy-JT-gUD" firstAttribute="leading" secondItem="XI6-AS-5k9" secondAttribute="leading" id="1uV-U4-CfX"/>
-                                    <constraint firstItem="Yzy-JT-gUD" firstAttribute="centerX" secondItem="XI6-AS-5k9" secondAttribute="centerX" id="3Ka-zh-7Pk"/>
-                                    <constraint firstItem="Yzy-JT-gUD" firstAttribute="centerY" secondItem="XI6-AS-5k9" secondAttribute="centerY" id="NrF-lo-Rcb"/>
-                                    <constraint firstItem="Yzy-JT-gUD" firstAttribute="top" secondItem="XI6-AS-5k9" secondAttribute="top" id="YCf-3c-LFq"/>
-                                    <constraint firstAttribute="trailing" secondItem="Yzy-JT-gUD" secondAttribute="trailing" id="gBY-NJ-Aua"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="XI6-AS-5k9" firstAttribute="leading" secondItem="T0Y-hk-jub" secondAttribute="leading" id="5sG-O3-e4S"/>
-                            <constraint firstItem="T0Y-hk-jub" firstAttribute="bottom" secondItem="XI6-AS-5k9" secondAttribute="bottom" id="bGf-Vr-Wb6"/>
-                            <constraint firstItem="XI6-AS-5k9" firstAttribute="top" secondItem="Zre-aF-5sX" secondAttribute="top" id="qBO-P8-b4A"/>
-                            <constraint firstItem="T0Y-hk-jub" firstAttribute="trailing" secondItem="XI6-AS-5k9" secondAttribute="trailing" id="rU4-de-oue"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="T0Y-hk-jub"/>
-                    </view>
-                    <size key="freeformSize" width="414" height="1500"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d2c-KP-MeF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-793" y="1807"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="TL4-Pf-HYE">
-            <objects>
-                <viewController id="56a-gq-5I7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uhf-lY-iuC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQt-tl-Up2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z6K-hO-1cc">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imac" translatesAutoresizingMaskIntoConstraints="NO" id="kiv-ii-nkI">
-                                                <rect key="frame" x="59" y="120" width="297" height="180"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="42" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7Z-oE-mm7">
-                                                <rect key="frame" x="87" y="319" width="240" height="462"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="42" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHe-Vi-vIV">
+                                                <rect key="frame" x="67" y="1364" width="240" height="462"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">IOS Development is an exciting career full of change, expansion, and plenty of opportunity. One of the most stimulating aspects of being an IOS Developer is the constant need for adaptation and change. As technology changes, so must developers. 
 
@@ -1408,211 +1277,133 @@ The US Department of Labor projected a 24% increase (much faster than average) f
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What does a career in IOS App Development entail?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfP-ED-pmQ">
-                                                <rect key="frame" x="61" y="28" width="292" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are employers looking for in IOS App Development?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2T-uA-UhM">
+                                                <rect key="frame" x="46" y="1834" width="287" height="63"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ri8-1L-Ryq">
-                                                <rect key="frame" x="83" y="789" width="248" height="59"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="programming" translatesAutoresizingMaskIntoConstraints="NO" id="ahH-xN-WcK">
+                                                <rect key="frame" x="55" y="1905" width="264" height="156"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                                <state key="normal" title="&gt;&gt;Go to next section: ">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="xlk-Mg-IgX" kind="show" id="iGb-bx-gSb"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;What are employers looking?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvc-47-ETU">
-                                                <rect key="frame" x="101" y="826" width="230" height="58"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRw-rK-uKb">
+                                                <rect key="frame" x="55" y="2069" width="264" height="254"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Typically, employers are looking for a well-rounded candidate with the humble ability to learn. 
+
+Employers are looking for a candidate with experience in Objective C and Swift programming, experience using xcode along with other basic developer tools, education, communication, and excellent problem solving skills. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To watch, &quot;A Day in the Life of a Software Engineer,&quot; click below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Die-ho-rGF">
+                                                <rect key="frame" x="56" y="2331" width="263" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETf-X8-vs5">
+                                                <rect key="frame" x="93" y="2399" width="189" height="63"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <state key="normal" title="Watch!">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="Watch:" destination="wLa-NA-NMr" eventType="touchUpInside" id="fYV-6T-tRj"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What classes will I need to take?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRf-Xa-W62">
+                                                <rect key="frame" x="46" y="2470" width="287" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="aBj-Bu-5nO">
+                                                <rect key="frame" x="69" y="2519" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDl-DO-ZWf">
+                                                <rect key="frame" x="22" y="2655" width="331" height="227"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The IOS App Development concentration is designed to equip you with the skills necessary to work with mobile networks and devices. The classes you will take are tailored to provide a foundation to further your education or build a career in IOS App Development. 
+
+These classes include but are not limited to, C# Programming, Swift, Fundamentals of Virtualization, and so on.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To view a complete list of classes,                                          click the button below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUX-xU-yJg">
+                                                <rect key="frame" x="44" y="2890" width="275" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yv5-Xe-jev">
+                                                <rect key="frame" x="93" y="2952" width="180" height="53"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <state key="normal" title="Learn More">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ClassList:" destination="wLa-NA-NMr" eventType="touchUpInside" id="MFS-Zd-F2r"/>
+                                                    <action selector="LearnMore:" destination="wLa-NA-NMr" eventType="touchUpInside" id="vTh-oL-hFH"/>
+                                                    <action selector="more:" destination="wLa-NA-NMr" eventType="touchUpInside" id="bWW-2v-bP3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2S-Zo-P3J">
+                                                <rect key="frame" x="78" y="3013" width="218" height="53"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <state key="normal" title="Check for Jobs">
+                                                    <color key="titleColor" red="0.98066351119999995" green="1" blue="0.95810794740000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="CheckJobs:" destination="wLa-NA-NMr" eventType="touchUpInside" id="LsL-o3-LF5"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="3100" id="tqa-Rc-iKh"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="z6K-hO-1cc" firstAttribute="centerX" secondItem="WQt-tl-Up2" secondAttribute="centerX" id="2Om-Bf-QOz"/>
-                                    <constraint firstItem="z6K-hO-1cc" firstAttribute="leading" secondItem="WQt-tl-Up2" secondAttribute="leading" id="4DG-Lw-v81"/>
-                                    <constraint firstAttribute="trailing" secondItem="z6K-hO-1cc" secondAttribute="trailing" id="GQA-ZP-de9"/>
-                                    <constraint firstAttribute="bottom" secondItem="z6K-hO-1cc" secondAttribute="bottom" id="IIX-O4-pjD"/>
-                                    <constraint firstItem="z6K-hO-1cc" firstAttribute="top" secondItem="WQt-tl-Up2" secondAttribute="top" id="RzD-zy-Wm3"/>
-                                    <constraint firstItem="z6K-hO-1cc" firstAttribute="centerY" secondItem="WQt-tl-Up2" secondAttribute="centerY" id="VlM-Mj-DRW"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y3d-eY-MZb" secondAttribute="trailing" id="16B-ir-EWF"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y3d-eY-MZb" secondAttribute="bottom" id="1ZN-4j-9Jp"/>
+                                    <constraint firstItem="Y3d-eY-MZb" firstAttribute="top" secondItem="1ce-9C-MyO" secondAttribute="top" id="mRu-O7-qsg"/>
+                                    <constraint firstItem="Y3d-eY-MZb" firstAttribute="leading" secondItem="1ce-9C-MyO" secondAttribute="leading" id="uqA-hN-gXA"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="WQt-tl-Up2" firstAttribute="top" secondItem="uhf-lY-iuC" secondAttribute="top" id="8UY-Ah-KHS"/>
-                            <constraint firstItem="WQt-tl-Up2" firstAttribute="top" secondItem="uhf-lY-iuC" secondAttribute="top" id="Go0-6l-m0R"/>
-                            <constraint firstItem="p3m-H5-JGM" firstAttribute="trailing" secondItem="WQt-tl-Up2" secondAttribute="trailing" id="Z4k-YX-UJq"/>
-                            <constraint firstItem="WQt-tl-Up2" firstAttribute="leading" secondItem="p3m-H5-JGM" secondAttribute="leading" id="ZiK-vD-bDU"/>
-                            <constraint firstItem="WQt-tl-Up2" firstAttribute="bottom" secondItem="p3m-H5-JGM" secondAttribute="bottom" id="bL9-2o-ovx"/>
-                            <constraint firstItem="WQt-tl-Up2" firstAttribute="leading" secondItem="p3m-H5-JGM" secondAttribute="leading" id="bZY-Wr-hIz"/>
-                            <constraint firstItem="p3m-H5-JGM" firstAttribute="bottom" secondItem="WQt-tl-Up2" secondAttribute="bottom" id="rF3-4H-lmC"/>
-                            <constraint firstItem="WQt-tl-Up2" firstAttribute="trailing" secondItem="p3m-H5-JGM" secondAttribute="trailing" id="vuC-YI-fBe"/>
+                            <constraint firstItem="Y3d-eY-MZb" firstAttribute="width" secondItem="ajh-oi-JbH" secondAttribute="width" id="CKm-nK-blF"/>
+                            <constraint firstItem="1ce-9C-MyO" firstAttribute="trailing" secondItem="oQA-2O-uby" secondAttribute="trailing" id="EMm-wQ-uIV"/>
+                            <constraint firstItem="1ce-9C-MyO" firstAttribute="bottom" secondItem="oQA-2O-uby" secondAttribute="bottom" id="SHL-BI-XM6"/>
+                            <constraint firstItem="1ce-9C-MyO" firstAttribute="top" secondItem="oQA-2O-uby" secondAttribute="top" id="wR6-Rv-LZE"/>
+                            <constraint firstItem="1ce-9C-MyO" firstAttribute="leading" secondItem="oQA-2O-uby" secondAttribute="leading" id="xbt-BM-XqL"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="p3m-H5-JGM"/>
+                        <viewLayoutGuide key="safeArea" id="oQA-2O-uby"/>
                     </view>
-                    <size key="freeformSize" width="414" height="900"/>
+                    <size key="freeformSize" width="375" height="3100"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ta-QL-3bS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JtE-TF-LQi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-109" y="2029"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="brZ-ac-Wx2">
-            <objects>
-                <viewController id="xlk-Mg-IgX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5Km-bw-d8P">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are employers looking for in IOS App Development?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvT-R3-hSf">
-                                <rect key="frame" x="52" y="10" width="307" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="programming" translatesAutoresizingMaskIntoConstraints="NO" id="hi7-oF-4BJ">
-                                <rect key="frame" x="75" y="82" width="264" height="156"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qf-Vo-VQA">
-                                <rect key="frame" x="75" y="246" width="264" height="254"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Typically, employers are looking for a well-rounded candidate with the humble ability to learn. 
-
-Employers are looking for a candidate with experience in Objective C and Swift programming, experience using xcode along with other basic developer tools, education, communication, and excellent problem solving skills. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To watch, &quot;A Day in the Life of a Software Engineer,&quot; click below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrI-9O-PbE">
-                                <rect key="frame" x="76" y="508" width="263" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUD-QS-Dlr">
-                                <rect key="frame" x="113" y="576" width="189" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <state key="normal" title="Watch!">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2zb-rs-zUO">
-                                <rect key="frame" x="83" y="647" width="248" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="&gt;&gt;Go to next section: ">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0W5-Dc-tvx" kind="show" id="mKg-rU-dZy"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;What classes will I need to take?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mep-xt-4gq">
-                                <rect key="frame" x="92" y="678" width="230" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="ItB-ht-szR"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HVe-jB-r13" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-759" y="2980"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="FHy-PP-6Be">
-            <objects>
-                <viewController id="0W5-Dc-tvx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZSy-To-1IH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What classes will I need to take?" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgC-iG-CpM">
-                                <rect key="frame" x="33" y="33" width="348" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="438-PN-fiu">
-                                <rect key="frame" x="52" y="99" width="311" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68G-AX-lFZ">
-                                <rect key="frame" x="42" y="299" width="331" height="227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The IOS App Development concentration is designed to equip you with the skills necessary to work with mobile networks and devices. The classes you will take are tailored to provide a foundation to further your education or build a career in IOS App Development. 
-
-These classes include but are not limited to, C# Programming, Swift, Fundamentals of Virtualization, and so on.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To view a complete list of classes,                                          click the button below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5t-bh-qQP">
-                                <rect key="frame" x="70" y="534" width="275" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYh-h9-LQF">
-                                <rect key="frame" x="117" y="596" width="180" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <state key="normal" title="Learn More">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Check For Jobs?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HL-J4-VBN">
-                                <rect key="frame" x="92" y="678" width="230" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ry0-1j-GCC">
-                                <rect key="frame" x="83" y="657" width="248" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="&gt;&gt;Go to next section: ">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="7ha-Qc-6aU"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Oxp-MX-RhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-109" y="2980"/>
+            <point key="canvasLocation" x="-673.1884057971015" y="1546.467391304348"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Apple-1" width="527" height="350"/>
         <image name="Errors 1" width="375" height="380"/>
         <image name="If Statement " width="529" height="235"/>
         <image name="Introduction Code 1.1" width="400" height="516"/>
@@ -1634,9 +1425,6 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
         <image name="video2-1" width="854" height="392"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WMt-cv-B6a"/>
-        <segue reference="pi8-O5-krP"/>
-        <segue reference="juw-T7-C2G"/>
         <segue reference="ZgN-tu-frm"/>
     </inferredMetricsTieBreakers>
 </document>

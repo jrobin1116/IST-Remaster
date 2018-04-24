@@ -120,25 +120,31 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
     @IBAction func onButtonPress(_ sender: Any) {
         
         UIApplication.shared.open(URL(string: "https://youtu.be/YkOzV7mZCWs")! as URL, options: [:], completionHandler: nil)
     }
     
-   
-    
- 
-        
-    
-    
-    
-    
-    
     @IBAction func menuTapped(_ sender: UIButton) {
        
         }
+	//Esther's Learn More! Button
+	@IBAction func LearnMore(_ sender: Any) {
+		UIApplication.shared.open(URL(string: "https://crew.co/how-to-build-an-online-business/developer-vs-designer/")! as URL, options: [:], completionHandler: nil)
+	}
+	// Esther's "A Day in the Life" video
+	@IBAction func Watch(_ sender: Any) {
+		UIApplication.shared.open(URL(string: "https://youtu.be/vt79JcPfZQA")! as URL, options: [:], completionHandler: nil)
+	}
+	// Esther's List of Classes Button
+	@IBAction func ClassList(_ sender: Any) {
+		UIApplication.shared.open(URL(string: "http://catalog.nemcc.edu/preview_program.php?catoid=7&poid=484&returnto=410")! as URL, options: [:], completionHandler: nil)
+	}
+	// Esther's Indeed Search Button
+	@IBAction func CheckJobs(_ sender: Any) {
+		UIApplication.shared.open(URL(string: "https://www.indeed.com/q-Ios-Developer-jobs.html")! as URL, options: [:], completionHandler: nil)
+	}
+	
 }
     
 
