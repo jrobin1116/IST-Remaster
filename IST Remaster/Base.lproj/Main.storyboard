@@ -178,16 +178,42 @@
                                     <constraint firstAttribute="trailing" secondItem="LYp-zx-Oe3" secondAttribute="trailing" id="zr0-Wr-HiE"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the Northeast Icon to Apply Now!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZf-oj-CxQ">
+                                <rect key="frame" x="59" y="580" width="296" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlh-pi-23V">
+                                <rect key="frame" x="36" y="609" width="343" height="82"/>
+                                <color key="backgroundColor" red="0.80392156862745101" green="0.70588235294117652" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="Adu-IN-28v"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="nemccLogo17">
+                                    <color key="titleColor" red="0.95461076498031616" green="0.026673724874854088" blue="0.9247170090675354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nemccApplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3kB-NF-bqT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="c2T-XM-B8A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Fp-0A-iSb"/>
                             <constraint firstItem="c2T-XM-B8A" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9IC-3y-qyo"/>
                             <constraint firstItem="c2T-XM-B8A" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Fy4-at-jyh"/>
+                            <constraint firstItem="tlh-pi-23V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="JYH-Uq-Jxr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tlh-pi-23V" secondAttribute="bottom" constant="45" id="Mj1-xG-4Kj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4pp-9s-Zke" secondAttribute="trailing" id="U3X-cS-pI5"/>
                             <constraint firstItem="c2T-XM-B8A" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="We6-mh-IcU"/>
                             <constraint firstItem="4pp-9s-Zke" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aIU-B5-Qjz"/>
+                            <constraint firstItem="tlh-pi-23V" firstAttribute="centerX" secondItem="hZf-oj-CxQ" secondAttribute="centerX" id="cU7-pp-g6r"/>
+                            <constraint firstItem="tlh-pi-23V" firstAttribute="centerX" secondItem="4pp-9s-Zke" secondAttribute="centerX" id="esD-oW-kIR"/>
                             <constraint firstItem="4pp-9s-Zke" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mZh-1O-RSV"/>
+                            <constraint firstItem="tlh-pi-23V" firstAttribute="top" secondItem="hZf-oj-CxQ" secondAttribute="bottom" constant="8" symbolic="YES" id="xIP-cF-sQX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -204,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79" y="-240"/>
+            <point key="canvasLocation" x="-79.710144927536234" y="-240.48913043478262"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FDV-bE-zro">
@@ -1419,6 +1445,7 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
         <image name="iPhone 8 Plus" width="375" height="667"/>
         <image name="imac" width="2250" height="1500"/>
         <image name="instagram" width="2000" height="1500"/>
+        <image name="nemccLogo17" width="1660" height="385"/>
         <image name="programming" width="2001" height="1500"/>
         <image name="server1" width="318" height="159"/>
         <image name="video1-2" width="640" height="320"/>

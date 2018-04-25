@@ -145,7 +145,16 @@ class ViewController: UIViewController {
 		UIApplication.shared.open(URL(string: "https://www.indeed.com/q-Ios-Developer-jobs.html")! as URL, options: [:], completionHandler: nil)
 	}
 	
+    // Code for NEMCC Apply button on Home Page
+    
+    @IBAction func nemccApplyButton(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "http://www.nemcc.edu/admissions/future_students/apply-now/")! as URL, options: [:], completionHandler: nil)
+        
+    }
 }
     
+
+
 
 
