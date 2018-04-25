@@ -756,65 +756,73 @@ the following institutional goals were established:</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
+                            <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sef-vg-h9z">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sef-vg-h9z">
                                         <rect key="frame" x="106" y="602" width="162" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="162" id="CDj-kT-5kO"/>
+                                            <constraint firstAttribute="height" constant="31" id="rve-hz-BAC"/>
+                                        </constraints>
                                         <state key="normal" title="Button" image="Untitled34"/>
                                         <connections>
                                             <action selector="northeastButton:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="paj-o1-Gr5"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uXd-jZ-Jip">
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uXd-jZ-Jip">
                                         <rect key="frame" x="28" y="395" width="319" height="179"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">The Cyber Defense concentration focuses on network security and digital forensics. In the cybersecurity and privacy program, students will learn how to thwart cyber attacks and how to design privacy and security compliant systems to protect computer systems and sensitive data.</string>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-hE-Wh4">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-hE-Wh4">
                                         <rect key="frame" x="134" y="269" width="106" height="55"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="9wR-TW-NKQ"/>
+                                            <constraint firstAttribute="width" constant="106" id="sOu-Aa-SVt"/>
+                                        </constraints>
                                         <state key="normal" title="Button" image="video1-2"/>
                                         <connections>
                                             <action selector="buttonVideo1:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="ZuB-XV-geA"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAA-Wh-K0z">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAA-Wh-K0z">
                                         <rect key="frame" x="134" y="332" width="106" height="55"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="9Cd-q8-Gc8"/>
+                                        </constraints>
                                         <state key="normal" title="Button" image="video2-1"/>
                                         <connections>
                                             <action selector="buttonVideo2:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="ge3-pS-hVU"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-sT-dad">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-sT-dad">
                                         <rect key="frame" x="87" y="115" width="201" height="130"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="c3M-sT-dad" secondAttribute="height" multiplier="201:130" id="Ic3-nS-4Ig"/>
+                                        </constraints>
                                     </imageView>
-                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAp-6v-KIP">
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAp-6v-KIP">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <items>
                                             <navigationItem id="qXK-As-x8W">
                                                 <barButtonItem key="backBarButtonItem" title="Back" id="Vvg-dU-Xox"/>
                                             </navigationItem>
                                         </items>
                                     </navigationBar>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt" customClass="UI">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt" customClass="UI">
                                         <rect key="frame" x="74" y="63" width="227" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50q-RE-Poe">
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50q-RE-Poe">
                                         <rect key="frame" x="86" y="641" width="202" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="0hB-jR-FXN"/>
+                                        </constraints>
                                         <state key="normal" image="Untitled 1"/>
                                         <connections>
                                             <segue destination="iG6-Sh-zHm" kind="show" identifier="securitySegue2" id="9cN-7v-YLy"/>
@@ -822,9 +830,40 @@ the following institutional goals were established:</string>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="centerX" secondItem="Sef-vg-h9z" secondAttribute="centerX" id="1Nj-CN-mtH"/>
+                                    <constraint firstItem="50q-RE-Poe" firstAttribute="top" secondItem="Sef-vg-h9z" secondAttribute="bottom" constant="8" symbolic="YES" id="302-ux-Zkx"/>
+                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="trailing" secondItem="LAA-Wh-K0z" secondAttribute="trailing" id="7k6-KV-J10"/>
+                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" id="9qE-4d-aYu"/>
+                                    <constraint firstItem="c3M-sT-dad" firstAttribute="top" secondItem="UY5-n6-rzt" secondAttribute="bottom" constant="23" id="AxH-M9-0DG"/>
+                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="top" secondItem="LZW-hE-Wh4" secondAttribute="bottom" constant="8" symbolic="YES" id="BSO-te-J2y"/>
+                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="centerX" secondItem="c3M-sT-dad" secondAttribute="centerX" id="LkL-hy-XCC"/>
+                                    <constraint firstItem="50q-RE-Poe" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="86" id="OUm-NG-GG7"/>
+                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="centerX" secondItem="UY5-n6-rzt" secondAttribute="centerX" id="Oa8-Po-Hsn"/>
+                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="centerX" secondItem="50q-RE-Poe" secondAttribute="centerX" id="RdC-KF-o0E"/>
+                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="centerX" secondItem="uXd-jZ-Jip" secondAttribute="centerX" id="Wkm-cP-sZu"/>
+                                    <constraint firstAttribute="bottom" secondItem="50q-RE-Poe" secondAttribute="bottom" constant="78" id="eS7-44-1hS"/>
+                                    <constraint firstAttribute="trailing" secondItem="rAp-6v-KIP" secondAttribute="trailing" id="fRR-7a-wam"/>
+                                    <constraint firstItem="c3M-sT-dad" firstAttribute="trailing" secondItem="50q-RE-Poe" secondAttribute="trailing" id="hay-eK-x9u"/>
+                                    <constraint firstItem="c3M-sT-dad" firstAttribute="centerX" secondItem="LZW-hE-Wh4" secondAttribute="centerX" id="kXJ-Qx-8Up"/>
+                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="28" id="l2g-aO-oTx"/>
+                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="top" secondItem="LAA-Wh-K0z" secondAttribute="bottom" constant="8" symbolic="YES" id="rya-gP-14s"/>
+                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="top" secondItem="c3M-sT-dad" secondAttribute="bottom" constant="24" id="tvZ-zu-PSV"/>
+                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="leading" secondItem="LAA-Wh-K0z" secondAttribute="leading" id="unL-Tz-dXK"/>
+                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="top" secondItem="uXd-jZ-Jip" secondAttribute="bottom" constant="28" id="v7l-Su-gmY"/>
+                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" id="v7n-Qn-XTQ"/>
+                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="top" secondItem="rAp-6v-KIP" secondAttribute="bottom" constant="19" id="vkF-Xi-DSq"/>
+                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="74" id="xO2-pC-Toz"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="leading" secondItem="ZaF-zc-1r2" secondAttribute="leading" id="Duv-do-IfY"/>
+                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="bottom" secondItem="0Mm-9i-6fD" secondAttribute="bottom" id="XK4-2o-nQ1"/>
+                            <constraint firstAttribute="trailing" secondItem="ImO-5c-rLZ" secondAttribute="trailing" id="Zdi-JT-8ly"/>
+                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="top" secondItem="ZaF-zc-1r2" secondAttribute="top" id="kXk-ZR-f3v"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0Mm-9i-6fD"/>
                     </view>
                     <size key="freeformSize" width="375" height="750"/>
