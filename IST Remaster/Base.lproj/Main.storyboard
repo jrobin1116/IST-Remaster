@@ -179,7 +179,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the Northeast Icon to Apply Now!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZf-oj-CxQ">
-                                <rect key="frame" x="59" y="580" width="296" height="21"/>
+                                <rect key="frame" x="59" y="580.66666666666663" width="296" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -756,114 +756,75 @@ the following institutional goals were established:</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
+                            <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ImO-5c-rLZ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt" customClass="UI">
-                                        <rect key="frame" x="74" y="52" width="227" height="31"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="27"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50q-RE-Poe">
-                                        <rect key="frame" x="86" y="691" width="202" height="31"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="31" id="cZ0-Ei-dWi"/>
-                                        </constraints>
-                                        <state key="normal" image="Untitled 1"/>
-                                        <connections>
-                                            <segue destination="iG6-Sh-zHm" kind="show" identifier="securitySegue2" id="9cN-7v-YLy"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sef-vg-h9z">
-                                        <rect key="frame" x="106" y="652" width="162" height="31"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="31" id="5iO-5H-WUw"/>
-                                        </constraints>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sef-vg-h9z">
+                                        <rect key="frame" x="106" y="602" width="162" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="Untitled34"/>
                                         <connections>
                                             <action selector="northeastButton:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="paj-o1-Gr5"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uXd-jZ-Jip">
-                                        <rect key="frame" x="74" y="354" width="240" height="290"/>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uXd-jZ-Jip">
+                                        <rect key="frame" x="28" y="395" width="319" height="179"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">The Cyber Defense concentration focuses on network security and digital forensics. In the cybersecurity and privacy program, students will learn how to thwart cyber attacks and how to design privacy and security compliant systems to protect computer systems and sensitive data.</string>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-hE-Wh4">
-                                        <rect key="frame" x="134" y="228" width="106" height="55"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="bDH-Dn-nbY"/>
-                                        </constraints>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-hE-Wh4">
+                                        <rect key="frame" x="134" y="269" width="106" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="video1-2"/>
                                         <connections>
                                             <action selector="buttonVideo1:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="ZuB-XV-geA"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAA-Wh-K0z">
-                                        <rect key="frame" x="134" y="291" width="106" height="55"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="4CT-Uy-Wii"/>
-                                        </constraints>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAA-Wh-K0z">
+                                        <rect key="frame" x="134" y="332" width="106" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="video2-1"/>
                                         <connections>
                                             <action selector="buttonVideo2:" destination="Iuj-mq-5SO" eventType="touchUpInside" id="ge3-pS-hVU"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-sT-dad">
-                                        <rect key="frame" x="87" y="90" width="201" height="130"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="130" id="sV2-MJ-k5W"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-sT-dad">
+                                        <rect key="frame" x="87" y="115" width="201" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAp-6v-KIP">
+                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAp-6v-KIP">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <items>
                                             <navigationItem id="qXK-As-x8W">
                                                 <barButtonItem key="backBarButtonItem" title="Back" id="Vvg-dU-Xox"/>
                                             </navigationItem>
                                         </items>
                                     </navigationBar>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-n6-rzt" customClass="UI">
+                                        <rect key="frame" x="74" y="63" width="227" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50q-RE-Poe">
+                                        <rect key="frame" x="86" y="641" width="202" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Untitled 1"/>
+                                        <connections>
+                                            <segue destination="iG6-Sh-zHm" kind="show" identifier="securitySegue2" id="9cN-7v-YLy"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="LZW-hE-Wh4" secondAttribute="trailing" constant="135" id="48P-Jk-bjn"/>
-                                    <constraint firstAttribute="trailing" secondItem="UY5-n6-rzt" secondAttribute="trailing" constant="74" id="9xP-3f-jkQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="c3M-sT-dad" secondAttribute="trailing" constant="87" id="A1R-bH-Bmy"/>
-                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="top" secondItem="LAA-Wh-K0z" secondAttribute="bottom" constant="8" id="Ahh-tp-ZlT"/>
-                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="top" secondItem="uXd-jZ-Jip" secondAttribute="bottom" constant="8" id="Jnd-GG-zcG"/>
-                                    <constraint firstItem="c3M-sT-dad" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="87" id="Qdx-NR-5u8"/>
-                                    <constraint firstItem="Sef-vg-h9z" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="106" id="RbI-EC-DGG"/>
-                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" id="Tyg-S8-6RD"/>
-                                    <constraint firstAttribute="trailing" secondItem="Sef-vg-h9z" secondAttribute="trailing" constant="107" id="X2Q-qG-R5F"/>
-                                    <constraint firstItem="c3M-sT-dad" firstAttribute="top" secondItem="UY5-n6-rzt" secondAttribute="bottom" constant="7" id="Yyn-dg-BvZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="uXd-jZ-Jip" secondAttribute="trailing" constant="61" id="ag8-gM-amO"/>
-                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" id="bo7-KR-VgG"/>
-                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="74" id="cdk-ax-zrk"/>
-                                    <constraint firstItem="UY5-n6-rzt" firstAttribute="top" secondItem="ImO-5c-rLZ" secondAttribute="top" constant="52" id="eDT-m6-Nm4"/>
-                                    <constraint firstAttribute="trailing" secondItem="50q-RE-Poe" secondAttribute="trailing" constant="87" id="kDl-wA-JJa"/>
-                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="top" secondItem="LZW-hE-Wh4" secondAttribute="bottom" constant="8" id="lCX-a5-Zqn"/>
-                                    <constraint firstItem="50q-RE-Poe" firstAttribute="top" secondItem="Sef-vg-h9z" secondAttribute="bottom" constant="8" symbolic="YES" id="oXS-5Y-mT5"/>
-                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="134" id="oft-AK-RNc"/>
-                                    <constraint firstItem="50q-RE-Poe" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="86" id="pvD-i2-jtS"/>
-                                    <constraint firstItem="rAp-6v-KIP" firstAttribute="centerX" secondItem="UY5-n6-rzt" secondAttribute="centerX" id="q05-Cu-y8l"/>
-                                    <constraint firstItem="LAA-Wh-K0z" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="134" id="qls-5F-UkB"/>
-                                    <constraint firstItem="LZW-hE-Wh4" firstAttribute="top" secondItem="c3M-sT-dad" secondAttribute="bottom" constant="8" id="tqe-3h-mbE"/>
-                                    <constraint firstAttribute="trailing" secondItem="LAA-Wh-K0z" secondAttribute="trailing" constant="135" id="uAH-KK-dll"/>
-                                    <constraint firstAttribute="bottom" secondItem="50q-RE-Poe" secondAttribute="bottom" constant="28" id="v9N-bf-Whp"/>
-                                    <constraint firstItem="uXd-jZ-Jip" firstAttribute="leading" secondItem="ImO-5c-rLZ" secondAttribute="leading" constant="74" id="xOU-mc-mkB"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.80784313730000001" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="bottom" secondItem="0Mm-9i-6fD" secondAttribute="bottom" id="ALR-7m-clU"/>
-                            <constraint firstAttribute="trailing" secondItem="ImO-5c-rLZ" secondAttribute="trailing" id="LCp-FF-0JR"/>
-                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="leading" secondItem="ZaF-zc-1r2" secondAttribute="leading" id="chH-gJ-RRj"/>
-                            <constraint firstItem="ImO-5c-rLZ" firstAttribute="top" secondItem="ZaF-zc-1r2" secondAttribute="top" id="jUJ-HT-YnT"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0Mm-9i-6fD"/>
                     </view>
                     <size key="freeformSize" width="375" height="750"/>
@@ -913,7 +874,7 @@ the following institutional goals were established:</string>
 - Recommend security enhancements to management or senior IT staff
 
 - Help computer users when they need to install or learn about new security products and procedures</string>
-                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-04-17 at 10.43.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Ccn-hB-sKh">
